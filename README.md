@@ -7,7 +7,8 @@ Data and code package for the paper
 > Programming*.
 
 Authors: **YeoHoon Yoon** and **Kyung-Sung Kim**, aSSIST University.
-Package DOI: *DOI to be inserted*. Licence: CC BY 4.0 (see `LICENSE`).
+Package DOI: [10.5281/zenodo.23386434](https://doi.org/10.5281/zenodo.23386434) (v1.0.0; all versions:
+[10.5281/zenodo.23386433](https://doi.org/10.5281/zenodo.23386433)). Licence: CC BY 4.0 (see `LICENSE`).
 
 ## 1. What is included
 
@@ -158,5 +159,5 @@ withheld configuration and the withheld salt. They document exactly how every re
 ## 9. Citation
 
 Please cite the paper (above) and this package: Yoon, Y. & Kim, K.-S. (2026). *Measuring Context Assembly Cost in
-Coding-Agent Trajectories — derived data and analysis scripts* [Data set]. Zenodo. DOI to be inserted.
+Coding-Agent Trajectories — derived data and analysis scripts* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23386434
 See `CITATION.cff`.

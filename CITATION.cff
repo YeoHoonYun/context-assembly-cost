@@ -1,16 +1,28 @@
 cff-version: 1.2.0
-message: "If you use this package, please cite it and the associated paper. Package DOI to be inserted."
+message: "If you use this package, please cite it and the associated paper."
 type: dataset
 title: "Measuring Context Assembly Cost in Coding-Agent Trajectories: derived data and analysis scripts"
 version: "1.0.0"
+doi: 10.5281/zenodo.23386434
+date-released: 2026-10-15
 license: CC-BY-4.0
+repository-code: "https://github.com/YeoHoonYun/context-assembly-cost"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23386434
+    description: "Version 1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.23386433
+    description: "All versions (concept DOI)"
 authors:
   - family-names: Yoon
     given-names: YeoHoon
     affiliation: aSSIST University
+    orcid: "https://orcid.org/0009-0007-2669-8127"
   - family-names: Kim
     given-names: Kyung-Sung
     affiliation: aSSIST University
+    orcid: "https://orcid.org/0009-0003-2591-9814"
 keywords:
   - coding agents
   - context assembly cost

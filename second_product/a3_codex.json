@@ -1,0 +1,106 @@
+{
+  "generated_utc": "2026-09-06T03:08:00.960947+00:00",
+  "product": "Codex CLI",
+  "root": "<codex_sessions_root>",
+  "session_files": 54,
+  "lines": 253888,
+  "json_parse_errors": 0,
+  "top_level_types": {
+    "response_item": 144993,
+    "event_msg": 103084,
+    "turn_context": 4321,
+    "compacted": 516,
+    "token_usage_record": 451,
+    "world_state": 450,
+    "session_meta": 73
+  },
+  "response_item_types": {
+    "reasoning": 31377,
+    "function_call": 26277,
+    "function_call_output": 26251,
+    "message": 23326,
+    "custom_tool_call": 18780,
+    "custom_tool_call_output": 18780,
+    "web_search_call": 118,
+    "tool_search_call": 42,
+    "tool_search_output": 42
+  },
+  "compacted_records": 516,
+  "cli_versions": {
+    "0.145.0-alpha.18": 13,
+    "0.133.0-alpha.1": 7,
+    "0.137.0-alpha.4": 6,
+    "0.146.0-alpha.3.1": 4,
+    "0.149.0-alpha.4": 4,
+    "0.130.0-alpha.5": 3,
+    "0.142.5": 3,
+    "0.135.0-alpha.1": 2,
+    "0.136.0-alpha.2": 2,
+    "0.146.0-alpha.9.2": 2,
+    "0.150.0-alpha.12.2": 2,
+    "0.140.0-alpha.2": 1,
+    "0.147.0-alpha.6.5": 1,
+    "0.148.0-alpha.9": 1,
+    "0.148.0-alpha.15": 1,
+    "0.149.0-alpha.4.3": 1,
+    "0.151.0-alpha.7.1": 1
+  },
+  "originators": {
+    "codex_vscode": 52,
+    "Codex Desktop": 2
+  },
+  "R1_resume_duplication": {
+    "tool_call_occurrences": 45057,
+    "distinct_call_ids": 45057,
+    "duplication_rate_pct": 0.0,
+    "ids_appearing_more_than_once": 0,
+    "duplicated_ACROSS_files": 0,
+    "duplicated_WITHIN_single_file": 0,
+    "cross_file_share_of_duplicates_pct": null,
+    "distinct_file_pairs": 0,
+    "top_file_pairs": [],
+    "multiplicity_distribution": {
+      "1": 45057
+    },
+    "gap_seconds": {
+      "n": 0,
+      "p05": null,
+      "median": null,
+      "p95": null,
+      "max": null,
+      "pct_zero": null
+    }
+  },
+  "R2_shell_paths": {
+    "shell_bearing_tool_calls": 16625,
+    "of_those_containing_path_tokens": 14051,
+    "share_pct": 84.52,
+    "path_tokens_extracted": 61365,
+    "exec_tool_calls": 16625,
+    "note": "Codex performs most file access inside exec/shell_command. Without a dedicated read tool log, paths do not appear in the tool log."
+  },
+  "R3_delegation": {
+    "tool_name_distribution": {
+      "shell_command": 19769,
+      "exec": 16625,
+      "wait": 4345,
+      "apply_patch": 2155,
+      "update_plan": 232,
+      "js": 72,
+      "_list_labels": 31,
+      "wait_agent": 26,
+      "spawn_agent": 24,
+      "close_agent": 15,
+      "view_image": 15,
+      "_get_profile": 6,
+      "other_connector_tools": 1733
+    },
+    "delegation_like_tools": {
+      "spawn_agent": 24,
+      "wait_agent": 26,
+      "close_agent": 15
+    },
+    "separate_sub_trajectory_files": 0,
+    "note": "The Codex sessions tree has no files dedicated to sub-trajectories. Delegation, when it occurs, is not recorded as a separate file."
+  }
+}

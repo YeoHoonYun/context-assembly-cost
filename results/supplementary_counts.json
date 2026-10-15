@@ -1,0 +1,80 @@
+{
+  "description": "Quantities cited in the paper that are not produced by a released script, and counts computed by the release build from released tables.",
+  "second_product_corpus": {
+    "session_files": 54,
+    "size_mb": 663.7,
+    "provenance": "recorded in working notes, no generating script",
+    "note": "Total size of the Codex CLI session logs read by s14 on 2026-09-06; file count also in second_product/a3_codex.json (session_files)."
+  },
+  "grouping_factor_B_directories": {
+    "technically_grouped": {
+      "directories": 7,
+      "python_files": 208
+    },
+    "feature_grouped": {
+      "directories": 13,
+      "python_files": 432
+    },
+    "provenance": "recorded in working notes, no generating script",
+    "note": "Directory census of the project's scripts tree at the start of the study; the 7 + 13 directory names are the layer_dirs / feature_dirs of the withheld config used by s04."
+  },
+  "codified_assets_created_at_window_start": {
+    "skills": 17,
+    "created_utc_date_range": [
+      "2026-05-29",
+      "2026-06-05"
+    ],
+    "observation_window_start_utc": "2026-05-30T02:06:20.406Z",
+    "provenance": "recorded in working notes, no generating script",
+    "note": "All 17 skill files were created right after the observation window opened, so no period without codified context exists in the corpus."
+  },
+  "resumed_pair_duplicates_main_corpus": {
+    "duplicated_tool_use_ids": 2316,
+    "duplicated_across_sessions": 2315,
+    "cross_session_share_pct": 99.96,
+    "distinct_session_pairs": 1,
+    "pair_hashed": [
+      "ffe1cb1f0a8a3deb",
+      "c3eb91786e4e0b56"
+    ],
+    "provenance": "share computed by s09 (results/b5_reemission.json: verdict.cross_session_share_of_duplicates_pct); the number of session pairs (1) and the pair identity are recorded in working notes, no generating script",
+    "note": "All cross-session duplicates come from one resumed session pair (re-emission gap 0 s)."
+  },
+  "prior_extraction_within_session_duplicates": {
+    "duplicated_within_single_session": 237,
+    "distinct_resource_keys": 237,
+    "same_resource_key": 0,
+    "tool": "PowerShell (237 of 237)",
+    "path_resolution": "shell-parsed (714 of 714 records)",
+    "provenance": "count produced by s12 (results/prior_extraction_duplication.json: duplicated_WITHIN_single_session); the breakdown by resource key / tool / resolution is recorded in working notes, no generating script",
+    "note": "All 237 within-session duplicates are multi-path shell commands: one tool call yields one record per resolved path."
+  },
+  "subagent_rescan_difference": {
+    "scan_20260904_transcripts": 215,
+    "scan_20260905_transcripts": 211,
+    "present_20260904_absent_20260905": 7,
+    "new_in_20260905": 3,
+    "absent_agent_ids_hashed": [
+      "97ec02a9699eb162",
+      "af364ec387395bb1",
+      "917619d8748aa350",
+      "25cb22ac69b8207d",
+      "df5645e5991ee94d",
+      "fa148fa0e9a32a83",
+      "397470c9c9f2a9ba"
+    ],
+    "new_agent_ids_hashed": [
+      "7567111aaf345453",
+      "6914df214288bdbc",
+      "7f49c9a315f8d77c"
+    ],
+    "provenance": "computed by the release build: set difference of agent transcript file names between data/pilot_subagents_20260904.csv and data/pilot_subagents_20260905.csv (before hashing)"
+  },
+  "observation_window": {
+    "start_utc": "2026-05-30T02:06:20.406Z",
+    "end_utc": "2026-09-03T23:56:14.192Z",
+    "elapsed_days": 96.91,
+    "calendar_days_inclusive": 97,
+    "provenance": "computed by the release build from results/pilot_summary_main.json window_utc"
+  }
+}

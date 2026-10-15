@@ -1,0 +1,15 @@
+{
+  "title": "Measuring Context Assembly Cost in Coding-Agent Trajectories: derived data and analysis scripts",
+  "upload_type": "dataset",
+  "description": "Derived measurements, statistical outputs and analysis scripts for the paper \"Measuring Context Assembly Cost in Coding-Agent Trajectories: Limits of Identifying Software-Structure Effects from Observation\" (Yoon and Kim, submitted to Science of Computer Programming). Includes per-lineage and per-session measurements with identifiers replaced by salted hashes, the 28-test analysis family under two path-resolution regimes (S1), the acquisition-threshold sensitivity analysis (S2), the path-confidence tier analysis (S3), the second-product check, the extraction, lineage-merge, path-resolution and analysis scripts, and a map from every numeric claim in the paper to the file and field that records it. Raw agent transcripts are not released. See README.md for snapshot dates and known limitations.",
+  "creators": [
+    {"name": "Yoon, YeoHoon", "affiliation": "Graduate School of AI, aSSIST University", "orcid": "0009-0007-2669-8127"},
+    {"name": "Kim, Kyung-Sung", "affiliation": "Graduate School of AI, aSSIST University", "orcid": "0009-0003-2591-9814"}
+  ],
+  "keywords": ["AI coding agents", "Agentic software engineering", "Software repository mining", "Measurement validity", "Large language models", "Software architecture"],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {"identifier": "10.2139/ssrn.7415278", "relation": "isSupplementTo", "scheme": "doi"}
+  ]
+}

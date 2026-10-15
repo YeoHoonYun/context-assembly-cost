@@ -1,0 +1,269 @@
+{
+  "generated_utc": "2026-09-05T02:25:58.845634+00:00",
+  "question": "Does the reversed codified-context association remain after controlling for task scope?",
+  "caveat": "There is no required scope, so observed scope (unique files, modules, turns) is used as a proxy. These may be post-treatment variables.",
+  "regime_tool": {
+    "n": 110,
+    "n_codified": 82,
+    "n_plain": 28,
+    "raw_explore_per_edit": {
+      "n_no": 28,
+      "n_yes": 82,
+      "median_no": 7127.2,
+      "median_yes": 12807.8,
+      "ratio_yes_over_no": 1.797,
+      "z": -3.095,
+      "p": 0.00197,
+      "rank_biserial": -0.3929
+    },
+    "scope_unique_files": {
+      "n_no": 28,
+      "n_yes": 82,
+      "median_no": 6.0,
+      "median_yes": 7.0,
+      "ratio_yes_over_no": 1.167,
+      "z": -1.739,
+      "p": 0.081949,
+      "rank_biserial": -0.2208
+    },
+    "scope_modules": {
+      "n_no": 28,
+      "n_yes": 82,
+      "median_no": 4.0,
+      "median_yes": 4.0,
+      "ratio_yes_over_no": 1.0,
+      "z": -1.76,
+      "p": 0.078396,
+      "rank_biserial": -0.2234
+    },
+    "scope_turns": {
+      "n_no": 28,
+      "n_yes": 82,
+      "median_no": 33.0,
+      "median_yes": 32.0,
+      "ratio_yes_over_no": 0.97,
+      "z": -0.717,
+      "p": 0.473333,
+      "rank_biserial": -0.091
+    },
+    "stratified_by_unique_files": {
+      "Q1_uniquefiles_1~5": {
+        "n": 32,
+        "n_no": 13,
+        "n_yes": 19,
+        "median_no": 3698.0,
+        "median_yes": 10128.5,
+        "ratio_yes_over_no": 2.739,
+        "z": -2.897,
+        "p": 0.003769,
+        "rank_biserial": -0.6113
+      },
+      "Q2_uniquefiles_6~7": {
+        "n": 38,
+        "n_no": 7,
+        "n_yes": 31,
+        "median_no": 6903.0,
+        "median_yes": 13019.5,
+        "ratio_yes_over_no": 1.886,
+        "z": -2.241,
+        "p": 0.025058,
+        "rank_biserial": -0.5484
+      },
+      "Q3_uniquefiles_8~10": {
+        "n": 17,
+        "skipped": "n_a=1, n_b=16"
+      },
+      "Q4_uniquefiles_11~max": {
+        "n": 23,
+        "n_no": 7,
+        "n_yes": 16,
+        "median_no": 11474.0,
+        "median_yes": 9614.0,
+        "ratio_yes_over_no": 0.838,
+        "z": 0.668,
+        "p": 0.504036,
+        "rank_biserial": 0.1786
+      }
+    },
+    "regression_log_explore_per_edit": {
+      "(intercept)": {
+        "beta": 11.0076,
+        "se": 0.4709,
+        "t": 23.374,
+        "p": 0.0
+      },
+      "codified": {
+        "beta": 0.6671,
+        "se": 0.1761,
+        "t": 3.787,
+        "p": 0.000152
+      },
+      "log_unique_files": {
+        "beta": 1.7205,
+        "se": 0.2578,
+        "t": 6.674,
+        "p": 0.0
+      },
+      "modules": {
+        "beta": -0.0006,
+        "se": 0.0256,
+        "t": -0.023,
+        "p": 0.981697
+      },
+      "log_turns": {
+        "beta": -1.6461,
+        "se": 0.1414,
+        "t": -11.639,
+        "p": 0.0
+      },
+      "_n": 110,
+      "_r2": 0.645
+    },
+    "matched_caliper1_on_unique_files": {
+      "n_pairs": 23,
+      "median_codified": 10326.3,
+      "median_plain": 6917.5,
+      "ratio": 1.493,
+      "median_paired_diff": 6789.7,
+      "sign_test_pos": 18,
+      "sign_test_z": 2.711,
+      "sign_test_p": 0.006714
+    }
+  },
+  "regime_both": {
+    "n": 121,
+    "n_codified": 88,
+    "n_plain": 33,
+    "raw_explore_per_edit": {
+      "n_no": 33,
+      "n_yes": 88,
+      "median_no": 4994.0,
+      "median_yes": 12141.8,
+      "ratio_yes_over_no": 2.431,
+      "z": -3.189,
+      "p": 0.001426,
+      "rank_biserial": -0.3774
+    },
+    "scope_unique_files": {
+      "n_no": 33,
+      "n_yes": 88,
+      "median_no": 9.0,
+      "median_yes": 9.0,
+      "ratio_yes_over_no": 1.0,
+      "z": -0.611,
+      "p": 0.541143,
+      "rank_biserial": -0.0723
+    },
+    "scope_modules": {
+      "n_no": 33,
+      "n_yes": 88,
+      "median_no": 5.0,
+      "median_yes": 5.0,
+      "ratio_yes_over_no": 1.0,
+      "z": -1.048,
+      "p": 0.294835,
+      "rank_biserial": -0.124
+    },
+    "scope_turns": {
+      "n_no": 33,
+      "n_yes": 88,
+      "median_no": 29.0,
+      "median_yes": 31.5,
+      "ratio_yes_over_no": 1.086,
+      "z": -1.068,
+      "p": 0.285546,
+      "rank_biserial": -0.1264
+    },
+    "stratified_by_unique_files": {
+      "Q1_uniquefiles_1~7": {
+        "n": 41,
+        "n_no": 14,
+        "n_yes": 27,
+        "median_no": 4395.5,
+        "median_yes": 14512.0,
+        "ratio_yes_over_no": 3.302,
+        "z": -3.602,
+        "p": 0.000316,
+        "rank_biserial": -0.6931
+      },
+      "Q2_uniquefiles_8~9": {
+        "n": 24,
+        "n_no": 4,
+        "n_yes": 20,
+        "median_no": 3049.0,
+        "median_yes": 12678.8,
+        "ratio_yes_over_no": 4.158,
+        "z": -1.704,
+        "p": 0.08836,
+        "rank_biserial": -0.55
+      },
+      "Q3_uniquefiles_10~14": {
+        "n": 26,
+        "n_no": 5,
+        "n_yes": 21,
+        "median_no": 8401.2,
+        "median_yes": 16242.5,
+        "ratio_yes_over_no": 1.933,
+        "z": -2.31,
+        "p": 0.020909,
+        "rank_biserial": -0.6762
+      },
+      "Q4_uniquefiles_15~max": {
+        "n": 30,
+        "n_no": 10,
+        "n_yes": 20,
+        "median_no": 8679.6,
+        "median_yes": 2399.8,
+        "ratio_yes_over_no": 0.276,
+        "z": 1.892,
+        "p": 0.058525,
+        "rank_biserial": 0.43
+      }
+    },
+    "regression_log_explore_per_edit": {
+      "(intercept)": {
+        "beta": 11.3795,
+        "se": 0.7456,
+        "t": 15.263,
+        "p": 0.0
+      },
+      "codified": {
+        "beta": 0.7689,
+        "se": 0.2256,
+        "t": 3.408,
+        "p": 0.000654
+      },
+      "log_unique_files": {
+        "beta": 0.1185,
+        "se": 0.2834,
+        "t": 0.418,
+        "p": 0.675866
+      },
+      "modules": {
+        "beta": 0.0014,
+        "se": 0.0053,
+        "t": 0.267,
+        "p": 0.789447
+      },
+      "log_turns": {
+        "beta": -0.9001,
+        "se": 0.3238,
+        "t": -2.78,
+        "p": 0.005434
+      },
+      "_n": 121,
+      "_r2": 0.3474
+    },
+    "matched_caliper1_on_unique_files": {
+      "n_pairs": 29,
+      "median_codified": 14512.0,
+      "median_plain": 6903.0,
+      "ratio": 2.102,
+      "median_paired_diff": 3010.5,
+      "sign_test_pos": 22,
+      "sign_test_z": 2.785,
+      "sign_test_p": 0.005346
+    }
+  },
+  "note_regime": "The numerator of explore_per_edit counts tool-result characters only, so only the 'tool' regime results are interpreted. 'both' is reported for the scope indicators."
+}

@@ -1,0 +1,206 @@
+{
+  "description": "Path-confidence tier analysis (s15). Reconstruction from the transcripts that still existed on 2026-09-17, lines up to the canonical snapshot time; on-disk existence judged on 2026-09-17.",
+  "path_tiers": {
+    "definition": {
+      "T1": "tool-argument path (Read/NotebookRead/Grep/Glob)",
+      "T2": "extracted from shell command by regex; exists on disk at run time",
+      "T3": "extracted from shell command by regex; absent from disk at run time"
+    },
+    "acq_events_after_dedup": {
+      "T1": 1793,
+      "T2": 5292,
+      "T3": 3395
+    },
+    "acq_event_share_pct": {
+      "T1": 17.11,
+      "T2": 50.5,
+      "T3": 32.4
+    },
+    "unique_paths": {
+      "T1": 657,
+      "T2": 1090,
+      "T3": 1810
+    },
+    "T1_unique_paths_exist_now": 573,
+    "T1_unique_paths_absent_now": 84,
+    "T1_exist_rate_pct": 87.21,
+    "shell_unique_paths_exist_rate_pct": 37.59,
+    "summary_by_regime": {
+      "T1_tool": {
+        "lineages": 114,
+        "acq_events": 1793,
+        "unique_files_sum": 939
+      },
+      "T1+T2_tool+shell_exist": {
+        "lineages": 114,
+        "acq_events": 7085,
+        "unique_files_sum": 2106
+      },
+      "T1+T2+T3_tool+shell_all": {
+        "lineages": 114,
+        "acq_events": 10480,
+        "unique_files_sum": 4076
+      }
+    }
+  },
+  "reconstruction_summary": {
+    "sessions_in_canonical": 339,
+    "sessions_present_now": 206,
+    "sessions_missing_now": 133,
+    "lines_used": 52470,
+    "lines_dropped_after_cutoff": 3871,
+    "lineages": 206
+  },
+  "reconstruction_vs_canonical_at_threshold5": {
+    "tool_vs_canonical_tool_at_thr5": {
+      "canon_n_subset": 109,
+      "recon_n_subset": 58,
+      "canon_survivors": 13,
+      "recon_survivors": 12,
+      "sig_agreement": 27,
+      "tests_compared": 28
+    },
+    "all_vs_canonical_both_at_thr5": {
+      "canon_n_subset": 121,
+      "recon_n_subset": 61,
+      "canon_survivors": 24,
+      "recon_survivors": 20,
+      "sig_agreement": 24,
+      "tests_compared": 28
+    }
+  },
+  "survivors_by_tier_regime_and_threshold": {
+    "T1_tool": {
+      "1": {
+        "n_subset": 89,
+        "family_size": 28,
+        "survivors_q<0.01": 19,
+        "survivors_q<0.05": 24,
+        "survivors_q<0.1": 24
+      },
+      "2": {
+        "n_subset": 86,
+        "family_size": 28,
+        "survivors_q<0.01": 19,
+        "survivors_q<0.05": 21,
+        "survivors_q<0.1": 22
+      },
+      "3": {
+        "n_subset": 77,
+        "family_size": 28,
+        "survivors_q<0.01": 16,
+        "survivors_q<0.05": 20,
+        "survivors_q<0.1": 21
+      },
+      "5": {
+        "n_subset": 58,
+        "family_size": 28,
+        "survivors_q<0.01": 5,
+        "survivors_q<0.05": 12,
+        "survivors_q<0.1": 13
+      },
+      "10": {
+        "n_subset": 35,
+        "family_size": 28,
+        "survivors_q<0.01": 2,
+        "survivors_q<0.05": 7,
+        "survivors_q<0.1": 9
+      },
+      "20": {
+        "n_subset": 7,
+        "family_size": 0,
+        "survivors_q<0.01": 0,
+        "survivors_q<0.05": 0,
+        "survivors_q<0.1": 0
+      }
+    },
+    "T1+T2_tool+shell_exist": {
+      "1": {
+        "n_subset": 90,
+        "family_size": 28,
+        "survivors_q<0.01": 22,
+        "survivors_q<0.05": 25,
+        "survivors_q<0.1": 25
+      },
+      "2": {
+        "n_subset": 88,
+        "family_size": 28,
+        "survivors_q<0.01": 21,
+        "survivors_q<0.05": 25,
+        "survivors_q<0.1": 25
+      },
+      "3": {
+        "n_subset": 82,
+        "family_size": 28,
+        "survivors_q<0.01": 18,
+        "survivors_q<0.05": 23,
+        "survivors_q<0.1": 25
+      },
+      "5": {
+        "n_subset": 60,
+        "family_size": 28,
+        "survivors_q<0.01": 15,
+        "survivors_q<0.05": 18,
+        "survivors_q<0.1": 20
+      },
+      "10": {
+        "n_subset": 41,
+        "family_size": 28,
+        "survivors_q<0.01": 12,
+        "survivors_q<0.05": 16,
+        "survivors_q<0.1": 18
+      },
+      "20": {
+        "n_subset": 14,
+        "family_size": 28,
+        "survivors_q<0.01": 6,
+        "survivors_q<0.05": 18,
+        "survivors_q<0.1": 18
+      }
+    },
+    "T1+T2+T3_tool+shell_all": {
+      "1": {
+        "n_subset": 91,
+        "family_size": 28,
+        "survivors_q<0.01": 23,
+        "survivors_q<0.05": 24,
+        "survivors_q<0.1": 24
+      },
+      "2": {
+        "n_subset": 88,
+        "family_size": 28,
+        "survivors_q<0.01": 23,
+        "survivors_q<0.05": 24,
+        "survivors_q<0.1": 25
+      },
+      "3": {
+        "n_subset": 82,
+        "family_size": 28,
+        "survivors_q<0.01": 21,
+        "survivors_q<0.05": 23,
+        "survivors_q<0.1": 24
+      },
+      "5": {
+        "n_subset": 61,
+        "family_size": 28,
+        "survivors_q<0.01": 15,
+        "survivors_q<0.05": 20,
+        "survivors_q<0.1": 23
+      },
+      "10": {
+        "n_subset": 44,
+        "family_size": 28,
+        "survivors_q<0.01": 15,
+        "survivors_q<0.05": 19,
+        "survivors_q<0.1": 20
+      },
+      "20": {
+        "n_subset": 22,
+        "family_size": 28,
+        "survivors_q<0.01": 12,
+        "survivors_q<0.05": 17,
+        "survivors_q<0.1": 18
+      }
+    }
+  }
+}

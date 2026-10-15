@@ -1,0 +1,10 @@
+{
+  "tool_path_events": 7921,
+  "unique_tool_paths": 2042,
+  "shell_calls": 6861,
+  "shell_calls_with_abs_path": 6322,
+  "shell_calls_referencing_any_file": 6341,
+  "shell_file_reference_rate": 0.9242,
+  "unique_paths_seen_only_in_shell": 1617,
+  "path_observation_coverage": 0.5554
+}

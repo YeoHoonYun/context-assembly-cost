@@ -1,0 +1,3 @@
+# Python >= 3.8. The scripts use the Python standard library only
+# (argparse, csv, collections, datetime, hashlib, hmac, json, math, os, random, re, sys).
+# No third-party packages are required.

@@ -1,0 +1,49 @@
+{
+  "generated_utc": "2026-09-04T01:19:25.071874+00:00",
+  "transcript_files": 339,
+  "lines": 67895,
+  "json_parse_errors": 0,
+  "dedup": {
+    "raw_path_and_action_events": 25072,
+    "events_after_lineage_dedup": 20735,
+    "event_fork_replay_rate_pct": 17.3,
+    "raw_assistant_messages": 26631,
+    "messages_after_lineage_dedup": 26630,
+    "message_fork_replay_rate_pct": 0.0,
+    "distinct_session_ids": 339,
+    "distinct_lineages": 338,
+    "largest_lineage_sessions": 2,
+    "lineage_size_distribution": {
+      "1": 337,
+      "2": 1
+    }
+  },
+  "regime_tool_only": {
+    "lineages": 203,
+    "total_turns": 26398,
+    "acq_events": 2665,
+    "unique_files_sum": 1424,
+    "reread_rate_global": 0.4657,
+    "boundary_crossings": 1265,
+    "crossing_rate_global": 0.4747,
+    "verify_runs": 192,
+    "lineages_with_edit": 163,
+    "ttfe_median": 19,
+    "explore_chars": 7042318,
+    "codified_read_events": 194
+  },
+  "regime_tool_plus_shell": {
+    "lineages": 203,
+    "total_turns": 26398,
+    "acq_events": 12623,
+    "unique_files_sum": 5088,
+    "reread_rate_global": 0.5969,
+    "boundary_crossings": 9639,
+    "crossing_rate_global": 0.7636,
+    "verify_runs": 192,
+    "lineages_with_edit": 163,
+    "ttfe_median": 19,
+    "explore_chars": 7042318,
+    "codified_read_events": 282
+  }
+}

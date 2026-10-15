@@ -1,0 +1,29 @@
+id,label,test,x,y,tool_stat_name,tool_stat,tool_z,tool_n,tool_n_a,tool_n_b,tool_median_a,tool_median_b,tool_p_raw,tool_q_bh,tool_survives_q05,both_stat_name,both_stat,both_z,both_n,both_n_a,both_n_b,both_median_a,both_median_b,both_p_raw,both_q_bh,both_survives_q05
+F01,unique_files ~ explore_chars_per_edit,spearman,unique_files,explore_chars_per_edit,spearman_rho,0.2348,,109,,,,,0.014662,0.03158,True,spearman_rho,-0.1718,,121,,,,,0.059806,0.064406,False
+F02,unique_files ~ turns,spearman,unique_files,turns,spearman_rho,0.5229,,109,,,,,0.0,1e-06,True,spearman_rho,0.7761,,121,,,,,0.0,0.0,True
+F03,unique_files ~ cache_read_tokens,spearman,unique_files,cache_read_tokens,spearman_rho,0.5458,,109,,,,,0.0,0.0,True,spearman_rho,0.749,,121,,,,,0.0,0.0,True
+F04,unique_files ~ verify_runs,spearman,unique_files,verify_runs,spearman_rho,0.2561,,109,,,,,0.007788,0.018172,True,spearman_rho,0.3734,,121,,,,,4.3e-05,0.0001,True
+F05,unique_files ~ time_to_first_edit,spearman,unique_files,time_to_first_edit,spearman_rho,0.4543,,98,,,,,8e-06,3.6e-05,True,spearman_rho,0.6532,,109,,,,,0.0,0.0,True
+F06,modules_touched ~ explore_chars_per_edit,spearman,modules_touched,explore_chars_per_edit,spearman_rho,0.0445,,109,,,,,0.643674,0.783604,False,spearman_rho,-0.2665,,121,,,,,0.003509,0.004912,True
+F07,modules_touched ~ turns,spearman,modules_touched,turns,spearman_rho,0.3931,,109,,,,,4.4e-05,0.000142,True,spearman_rho,0.6763,,121,,,,,0.0,0.0,True
+F08,modules_touched ~ cache_read_tokens,spearman,modules_touched,cache_read_tokens,spearman_rho,0.3648,,109,,,,,0.00015,0.000419,True,spearman_rho,0.6147,,121,,,,,0.0,0.0,True
+F09,modules_touched ~ verify_runs,spearman,modules_touched,verify_runs,spearman_rho,0.17,,109,,,,,0.077206,0.135111,False,spearman_rho,0.3948,,121,,,,,1.5e-05,3.9e-05,True
+F10,modules_touched ~ time_to_first_edit,spearman,modules_touched,time_to_first_edit,spearman_rho,0.4139,,98,,,,,4.6e-05,0.000142,True,spearman_rho,0.594,,109,,,,,0.0,0.0,True
+F11,boundary_crossings ~ explore_chars_per_edit,spearman,boundary_crossings,explore_chars_per_edit,spearman_rho,-0.034,,109,,,,,0.723762,0.810677,False,spearman_rho,-0.2905,,121,,,,,0.001459,0.002404,True
+F12,boundary_crossings ~ turns,spearman,boundary_crossings,turns,spearman_rho,0.5152,,109,,,,,0.0,1e-06,True,spearman_rho,0.7816,,121,,,,,0.0,0.0,True
+F13,boundary_crossings ~ cache_read_tokens,spearman,boundary_crossings,cache_read_tokens,spearman_rho,0.5122,,109,,,,,0.0,1e-06,True,spearman_rho,0.7446,,121,,,,,0.0,0.0,True
+F14,boundary_crossings ~ verify_runs,spearman,boundary_crossings,verify_runs,spearman_rho,0.1803,,109,,,,,0.060905,0.11369,False,spearman_rho,0.3307,,121,,,,,0.000292,0.000511,True
+F15,boundary_crossings ~ time_to_first_edit,spearman,boundary_crossings,time_to_first_edit,spearman_rho,0.4799,,98,,,,,2e-06,1.3e-05,True,spearman_rho,0.6842,,109,,,,,0.0,0.0,True
+F16,crossing_rate ~ explore_chars_per_edit,spearman,crossing_rate,explore_chars_per_edit,spearman_rho,-0.1932,,109,,,,,0.044693,0.089386,False,spearman_rho,-0.3524,,121,,,,,0.000113,0.000244,True
+F17,crossing_rate ~ turns,spearman,crossing_rate,turns,spearman_rho,-0.0197,,109,,,,,0.837726,0.90017,False,spearman_rho,0.2039,,121,,,,,0.025475,0.031013,True
+F18,crossing_rate ~ cache_read_tokens,spearman,crossing_rate,cache_read_tokens,spearman_rho,-0.034,,109,,,,,0.723819,0.810677,False,spearman_rho,0.1775,,121,,,,,0.051863,0.058087,False
+F19,crossing_rate ~ verify_runs,spearman,crossing_rate,verify_runs,spearman_rho,0.1033,,109,,,,,0.28317,0.360399,False,spearman_rho,0.253,,121,,,,,0.005579,0.007439,True
+F20,crossing_rate ~ time_to_first_edit,spearman,crossing_rate,time_to_first_edit,spearman_rho,-0.0127,,98,,,,,0.90017,0.90017,False,spearman_rho,0.121,,109,,,,,0.20872,0.216451,False
+F21,reread_rate ~ explore_chars_per_edit,spearman,reread_rate,explore_chars_per_edit,spearman_rho,-0.154,,109,,,,,0.109583,0.180489,False,spearman_rho,-0.204,,121,,,,,0.025429,0.031013,True
+F22,reread_rate ~ turns,spearman,reread_rate,turns,spearman_rho,0.139,,109,,,,,0.148574,0.218951,False,spearman_rho,0.3419,,121,,,,,0.00018,0.000361,True
+F23,reread_rate ~ cache_read_tokens,spearman,reread_rate,cache_read_tokens,spearman_rho,0.1257,,109,,,,,0.191445,0.25526,False,spearman_rho,0.3355,,121,,,,,0.000238,0.000444,True
+F24,reread_rate ~ verify_runs,spearman,reread_rate,verify_runs,spearman_rho,-0.1282,,109,,,,,0.182885,0.25526,False,spearman_rho,0.0365,,121,,,,,0.689107,0.689107,False
+F25,reread_rate ~ time_to_first_edit,spearman,reread_rate,time_to_first_edit,spearman_rho,0.1564,,98,,,,,0.123512,0.19213,False,spearman_rho,0.2991,,109,,,,,0.001878,0.002922,True
+F26,delegation: explore_per_edit (no vs yes),mann_whitney,delegations>0,explore_chars_per_edit,rank_biserial,0.6203,4.146,109,91,18,12028.5,1965.5,3.4e-05,0.000135,True,rank_biserial,0.6856,5.187,121,97,24,11474.0,1776.7,0.0,1e-06,True
+F27,delegation: crossing_rate (no vs yes),mann_whitney,delegations>0,crossing_rate,rank_biserial,0.0189,0.126,109,91,18,0.5,0.5,0.899341,0.90017,False,rank_biserial,-0.2758,-2.087,121,97,24,0.5,0.6,0.036931,0.043086,True
+F28,codified: explore_per_edit (no vs yes),mann_whitney,codified_reads>0,explore_chars_per_edit,rank_biserial,-0.3501,-2.753,109,28,81,7127.2,12596.0,0.005899,0.015015,True,rank_biserial,-0.3604,-3.074,121,34,87,4641.2,12054.0,0.002115,0.003117,True

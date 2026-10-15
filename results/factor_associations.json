@@ -1,0 +1,60 @@
+{
+  "note": "No random assignment -> correlations only. Factor C is confounded with time, CLI version and model.",
+  "n_all": 339,
+  "n_subset": 110,
+  "subset_rule": "path_events >= 5",
+  "C_codified_access": {
+    "n_with": 82,
+    "n_without": 28,
+    "total_codified_read_events": 213,
+    "sessions_with_any_codified_read": 101,
+    "explore_per_edit": {
+      "n_a": 28,
+      "n_b": 82,
+      "median_a": 8453.5,
+      "median_b": 16970.0,
+      "z": -3.047,
+      "p": 0.002314,
+      "rank_biserial": -0.3868
+    },
+    "unique_files": {
+      "n_a": 28,
+      "n_b": 82,
+      "median_a": 6.0,
+      "median_b": 7.0,
+      "z": -1.729,
+      "p": 0.083774,
+      "rank_biserial": -0.2195
+    },
+    "ttfe": {
+      "n_a": 28,
+      "n_b": 71,
+      "median_a": 27.0,
+      "median_b": 31.0,
+      "z": -1.068,
+      "p": 0.285394,
+      "rank_biserial": -0.1383
+    }
+  },
+  "C_dose": {
+    "codified_share_vs_explore_per_edit": {
+      "rho": 0.1781,
+      "n": 110,
+      "p": 0.063037
+    },
+    "codified_reads_vs_unique_files": {
+      "rho": 0.2986,
+      "n": 110,
+      "p": 0.001827
+    }
+  },
+  "B_grouping": {
+    "total_layer_read_events": 112,
+    "total_feature_read_events": 144,
+    "n_layer_dominant": 1,
+    "n_feature_dominant": 3,
+    "explore_per_edit": {
+      "skipped": "n_a=1, n_b=3 (<5)"
+    }
+  }
+}

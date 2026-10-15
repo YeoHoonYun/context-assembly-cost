@@ -1,0 +1,469 @@
+{
+  "tool": {
+    "n_subset": 109,
+    "subset_rule": "acq_events >= 5",
+    "unique_files ~ explore_chars_per_edit": {
+      "rho": 0.2348,
+      "n": 109,
+      "p_raw": 0.014662,
+      "q_bh": 0.03158,
+      "sig_fdr05": true
+    },
+    "unique_files ~ turns": {
+      "rho": 0.5229,
+      "n": 109,
+      "p_raw": 0.0,
+      "q_bh": 1e-06,
+      "sig_fdr05": true
+    },
+    "unique_files ~ cache_read_tokens": {
+      "rho": 0.5458,
+      "n": 109,
+      "p_raw": 0.0,
+      "q_bh": 0.0,
+      "sig_fdr05": true
+    },
+    "unique_files ~ verify_runs": {
+      "rho": 0.2561,
+      "n": 109,
+      "p_raw": 0.007788,
+      "q_bh": 0.018172,
+      "sig_fdr05": true
+    },
+    "unique_files ~ time_to_first_edit": {
+      "rho": 0.4543,
+      "n": 98,
+      "p_raw": 8e-06,
+      "q_bh": 3.6e-05,
+      "sig_fdr05": true
+    },
+    "modules_touched ~ explore_chars_per_edit": {
+      "rho": 0.0445,
+      "n": 109,
+      "p_raw": 0.643674,
+      "q_bh": 0.783604,
+      "sig_fdr05": false
+    },
+    "modules_touched ~ turns": {
+      "rho": 0.3931,
+      "n": 109,
+      "p_raw": 4.4e-05,
+      "q_bh": 0.000142,
+      "sig_fdr05": true
+    },
+    "modules_touched ~ cache_read_tokens": {
+      "rho": 0.3648,
+      "n": 109,
+      "p_raw": 0.00015,
+      "q_bh": 0.000419,
+      "sig_fdr05": true
+    },
+    "modules_touched ~ verify_runs": {
+      "rho": 0.17,
+      "n": 109,
+      "p_raw": 0.077206,
+      "q_bh": 0.135111,
+      "sig_fdr05": false
+    },
+    "modules_touched ~ time_to_first_edit": {
+      "rho": 0.4139,
+      "n": 98,
+      "p_raw": 4.6e-05,
+      "q_bh": 0.000142,
+      "sig_fdr05": true
+    },
+    "boundary_crossings ~ explore_chars_per_edit": {
+      "rho": -0.034,
+      "n": 109,
+      "p_raw": 0.723762,
+      "q_bh": 0.810677,
+      "sig_fdr05": false
+    },
+    "boundary_crossings ~ turns": {
+      "rho": 0.5152,
+      "n": 109,
+      "p_raw": 0.0,
+      "q_bh": 1e-06,
+      "sig_fdr05": true
+    },
+    "boundary_crossings ~ cache_read_tokens": {
+      "rho": 0.5122,
+      "n": 109,
+      "p_raw": 0.0,
+      "q_bh": 1e-06,
+      "sig_fdr05": true
+    },
+    "boundary_crossings ~ verify_runs": {
+      "rho": 0.1803,
+      "n": 109,
+      "p_raw": 0.060905,
+      "q_bh": 0.11369,
+      "sig_fdr05": false
+    },
+    "boundary_crossings ~ time_to_first_edit": {
+      "rho": 0.4799,
+      "n": 98,
+      "p_raw": 2e-06,
+      "q_bh": 1.3e-05,
+      "sig_fdr05": true
+    },
+    "crossing_rate ~ explore_chars_per_edit": {
+      "rho": -0.1932,
+      "n": 109,
+      "p_raw": 0.044693,
+      "q_bh": 0.089386,
+      "sig_fdr05": false
+    },
+    "crossing_rate ~ turns": {
+      "rho": -0.0197,
+      "n": 109,
+      "p_raw": 0.837726,
+      "q_bh": 0.90017,
+      "sig_fdr05": false
+    },
+    "crossing_rate ~ cache_read_tokens": {
+      "rho": -0.034,
+      "n": 109,
+      "p_raw": 0.723819,
+      "q_bh": 0.810677,
+      "sig_fdr05": false
+    },
+    "crossing_rate ~ verify_runs": {
+      "rho": 0.1033,
+      "n": 109,
+      "p_raw": 0.28317,
+      "q_bh": 0.360399,
+      "sig_fdr05": false
+    },
+    "crossing_rate ~ time_to_first_edit": {
+      "rho": -0.0127,
+      "n": 98,
+      "p_raw": 0.90017,
+      "q_bh": 0.90017,
+      "sig_fdr05": false
+    },
+    "reread_rate ~ explore_chars_per_edit": {
+      "rho": -0.154,
+      "n": 109,
+      "p_raw": 0.109583,
+      "q_bh": 0.180489,
+      "sig_fdr05": false
+    },
+    "reread_rate ~ turns": {
+      "rho": 0.139,
+      "n": 109,
+      "p_raw": 0.148574,
+      "q_bh": 0.218951,
+      "sig_fdr05": false
+    },
+    "reread_rate ~ cache_read_tokens": {
+      "rho": 0.1257,
+      "n": 109,
+      "p_raw": 0.191445,
+      "q_bh": 0.25526,
+      "sig_fdr05": false
+    },
+    "reread_rate ~ verify_runs": {
+      "rho": -0.1282,
+      "n": 109,
+      "p_raw": 0.182885,
+      "q_bh": 0.25526,
+      "sig_fdr05": false
+    },
+    "reread_rate ~ time_to_first_edit": {
+      "rho": 0.1564,
+      "n": 98,
+      "p_raw": 0.123512,
+      "q_bh": 0.19213,
+      "sig_fdr05": false
+    },
+    "delegation: explore_per_edit (no vs yes)": {
+      "n_a": 91,
+      "n_b": 18,
+      "median_a": 12028.5,
+      "median_b": 1965.5,
+      "z": 4.146,
+      "p_raw": 3.4e-05,
+      "rank_biserial": 0.6203,
+      "q_bh": 0.000135,
+      "sig_fdr05": true
+    },
+    "delegation: crossing_rate (no vs yes)": {
+      "n_a": 91,
+      "n_b": 18,
+      "median_a": 0.5,
+      "median_b": 0.5,
+      "z": 0.126,
+      "p_raw": 0.899341,
+      "rank_biserial": 0.0189,
+      "q_bh": 0.90017,
+      "sig_fdr05": false
+    },
+    "codified: explore_per_edit (no vs yes)": {
+      "n_a": 28,
+      "n_b": 81,
+      "median_a": 7127.2,
+      "median_b": 12596.0,
+      "z": -2.753,
+      "p_raw": 0.005899,
+      "rank_biserial": -0.3501,
+      "q_bh": 0.015015,
+      "sig_fdr05": true
+    },
+    "_fdr_family_size": 28,
+    "_fdr_survivors": [
+      "unique_files ~ cache_read_tokens",
+      "unique_files ~ turns",
+      "boundary_crossings ~ turns",
+      "boundary_crossings ~ cache_read_tokens",
+      "boundary_crossings ~ time_to_first_edit",
+      "unique_files ~ time_to_first_edit",
+      "delegation_explore_per_edit",
+      "modules_touched ~ turns",
+      "modules_touched ~ time_to_first_edit",
+      "modules_touched ~ cache_read_tokens",
+      "codified_explore_per_edit",
+      "unique_files ~ verify_runs",
+      "unique_files ~ explore_chars_per_edit"
+    ]
+  },
+  "both": {
+    "n_subset": 121,
+    "subset_rule": "acq_events >= 5",
+    "unique_files ~ explore_chars_per_edit": {
+      "rho": -0.1718,
+      "n": 121,
+      "p_raw": 0.059806,
+      "q_bh": 0.064406,
+      "sig_fdr05": false
+    },
+    "unique_files ~ turns": {
+      "rho": 0.7761,
+      "n": 121,
+      "p_raw": 0.0,
+      "q_bh": 0.0,
+      "sig_fdr05": true
+    },
+    "unique_files ~ cache_read_tokens": {
+      "rho": 0.749,
+      "n": 121,
+      "p_raw": 0.0,
+      "q_bh": 0.0,
+      "sig_fdr05": true
+    },
+    "unique_files ~ verify_runs": {
+      "rho": 0.3734,
+      "n": 121,
+      "p_raw": 4.3e-05,
+      "q_bh": 0.0001,
+      "sig_fdr05": true
+    },
+    "unique_files ~ time_to_first_edit": {
+      "rho": 0.6532,
+      "n": 109,
+      "p_raw": 0.0,
+      "q_bh": 0.0,
+      "sig_fdr05": true
+    },
+    "modules_touched ~ explore_chars_per_edit": {
+      "rho": -0.2665,
+      "n": 121,
+      "p_raw": 0.003509,
+      "q_bh": 0.004912,
+      "sig_fdr05": true
+    },
+    "modules_touched ~ turns": {
+      "rho": 0.6763,
+      "n": 121,
+      "p_raw": 0.0,
+      "q_bh": 0.0,
+      "sig_fdr05": true
+    },
+    "modules_touched ~ cache_read_tokens": {
+      "rho": 0.6147,
+      "n": 121,
+      "p_raw": 0.0,
+      "q_bh": 0.0,
+      "sig_fdr05": true
+    },
+    "modules_touched ~ verify_runs": {
+      "rho": 0.3948,
+      "n": 121,
+      "p_raw": 1.5e-05,
+      "q_bh": 3.9e-05,
+      "sig_fdr05": true
+    },
+    "modules_touched ~ time_to_first_edit": {
+      "rho": 0.594,
+      "n": 109,
+      "p_raw": 0.0,
+      "q_bh": 0.0,
+      "sig_fdr05": true
+    },
+    "boundary_crossings ~ explore_chars_per_edit": {
+      "rho": -0.2905,
+      "n": 121,
+      "p_raw": 0.001459,
+      "q_bh": 0.002404,
+      "sig_fdr05": true
+    },
+    "boundary_crossings ~ turns": {
+      "rho": 0.7816,
+      "n": 121,
+      "p_raw": 0.0,
+      "q_bh": 0.0,
+      "sig_fdr05": true
+    },
+    "boundary_crossings ~ cache_read_tokens": {
+      "rho": 0.7446,
+      "n": 121,
+      "p_raw": 0.0,
+      "q_bh": 0.0,
+      "sig_fdr05": true
+    },
+    "boundary_crossings ~ verify_runs": {
+      "rho": 0.3307,
+      "n": 121,
+      "p_raw": 0.000292,
+      "q_bh": 0.000511,
+      "sig_fdr05": true
+    },
+    "boundary_crossings ~ time_to_first_edit": {
+      "rho": 0.6842,
+      "n": 109,
+      "p_raw": 0.0,
+      "q_bh": 0.0,
+      "sig_fdr05": true
+    },
+    "crossing_rate ~ explore_chars_per_edit": {
+      "rho": -0.3524,
+      "n": 121,
+      "p_raw": 0.000113,
+      "q_bh": 0.000244,
+      "sig_fdr05": true
+    },
+    "crossing_rate ~ turns": {
+      "rho": 0.2039,
+      "n": 121,
+      "p_raw": 0.025475,
+      "q_bh": 0.031013,
+      "sig_fdr05": true
+    },
+    "crossing_rate ~ cache_read_tokens": {
+      "rho": 0.1775,
+      "n": 121,
+      "p_raw": 0.051863,
+      "q_bh": 0.058087,
+      "sig_fdr05": false
+    },
+    "crossing_rate ~ verify_runs": {
+      "rho": 0.253,
+      "n": 121,
+      "p_raw": 0.005579,
+      "q_bh": 0.007439,
+      "sig_fdr05": true
+    },
+    "crossing_rate ~ time_to_first_edit": {
+      "rho": 0.121,
+      "n": 109,
+      "p_raw": 0.20872,
+      "q_bh": 0.216451,
+      "sig_fdr05": false
+    },
+    "reread_rate ~ explore_chars_per_edit": {
+      "rho": -0.204,
+      "n": 121,
+      "p_raw": 0.025429,
+      "q_bh": 0.031013,
+      "sig_fdr05": true
+    },
+    "reread_rate ~ turns": {
+      "rho": 0.3419,
+      "n": 121,
+      "p_raw": 0.00018,
+      "q_bh": 0.000361,
+      "sig_fdr05": true
+    },
+    "reread_rate ~ cache_read_tokens": {
+      "rho": 0.3355,
+      "n": 121,
+      "p_raw": 0.000238,
+      "q_bh": 0.000444,
+      "sig_fdr05": true
+    },
+    "reread_rate ~ verify_runs": {
+      "rho": 0.0365,
+      "n": 121,
+      "p_raw": 0.689107,
+      "q_bh": 0.689107,
+      "sig_fdr05": false
+    },
+    "reread_rate ~ time_to_first_edit": {
+      "rho": 0.2991,
+      "n": 109,
+      "p_raw": 0.001878,
+      "q_bh": 0.002922,
+      "sig_fdr05": true
+    },
+    "delegation: explore_per_edit (no vs yes)": {
+      "n_a": 97,
+      "n_b": 24,
+      "median_a": 11474.0,
+      "median_b": 1776.7,
+      "z": 5.187,
+      "p_raw": 0.0,
+      "rank_biserial": 0.6856,
+      "q_bh": 1e-06,
+      "sig_fdr05": true
+    },
+    "delegation: crossing_rate (no vs yes)": {
+      "n_a": 97,
+      "n_b": 24,
+      "median_a": 0.5,
+      "median_b": 0.6,
+      "z": -2.087,
+      "p_raw": 0.036931,
+      "rank_biserial": -0.2758,
+      "q_bh": 0.043086,
+      "sig_fdr05": true
+    },
+    "codified: explore_per_edit (no vs yes)": {
+      "n_a": 34,
+      "n_b": 87,
+      "median_a": 4641.2,
+      "median_b": 12054.0,
+      "z": -3.074,
+      "p_raw": 0.002115,
+      "rank_biserial": -0.3604,
+      "q_bh": 0.003117,
+      "sig_fdr05": true
+    },
+    "_fdr_family_size": 28,
+    "_fdr_survivors": [
+      "unique_files ~ turns",
+      "unique_files ~ cache_read_tokens",
+      "unique_files ~ time_to_first_edit",
+      "modules_touched ~ turns",
+      "modules_touched ~ cache_read_tokens",
+      "modules_touched ~ time_to_first_edit",
+      "boundary_crossings ~ turns",
+      "boundary_crossings ~ cache_read_tokens",
+      "boundary_crossings ~ time_to_first_edit",
+      "delegation_explore_per_edit",
+      "modules_touched ~ verify_runs",
+      "unique_files ~ verify_runs",
+      "crossing_rate ~ explore_chars_per_edit",
+      "reread_rate ~ turns",
+      "reread_rate ~ cache_read_tokens",
+      "boundary_crossings ~ verify_runs",
+      "boundary_crossings ~ explore_chars_per_edit",
+      "reread_rate ~ time_to_first_edit",
+      "codified_explore_per_edit",
+      "modules_touched ~ explore_chars_per_edit",
+      "crossing_rate ~ verify_runs",
+      "crossing_rate ~ turns",
+      "reread_rate ~ explore_chars_per_edit",
+      "delegation_crossing_rate"
+    ]
+  }
+}

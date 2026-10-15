@@ -1,0 +1,38 @@
+{
+  "subagent_files": 215,
+  "with_turns": 215,
+  "lines": 22021,
+  "parse_errors": 0,
+  "parent_sessions": 77,
+  "max_subagents_per_session": 60,
+  "total_turns": 12871,
+  "total_reads": 6178,
+  "total_writes": 319,
+  "total_result_chars": 18235013,
+  "total_out_tokens": 5998022,
+  "total_cache_create": 66028733,
+  "total_cache_read": 813072310,
+  "window": [
+    "2026-05-30T02:06:40.208Z",
+    "2026-09-03T07:20:41.433Z"
+  ],
+  "top_parents": {
+    "c3eb91786e4e0b56": 60,
+    "0b7ae1ab3749d21f": 51,
+    "d340e8b73d970646": 4,
+    "f66ecdd549a93112": 4,
+    "0e3228f554c5f59a": 4
+  },
+  "tools": {
+    "Read": 2570,
+    "Glob": 2345,
+    "PowerShell": 2196,
+    "Grep": 1263,
+    "Write": 183,
+    "Edit": 136,
+    "WebFetch": 20,
+    "WebSearch": 20,
+    "Agent": 7,
+    "ToolSearch": 3
+  }
+}

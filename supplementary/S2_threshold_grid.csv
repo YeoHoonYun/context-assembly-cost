@@ -1,0 +1,813 @@
+source,regime,threshold,n_subset,family_size,test,stat,n,p_raw,q_bh,sig_q01,sig_q05,sig_q10
+exact_csv,tool+shell,1,175,28,unique_files ~ explore_chars_per_edit,0.4307,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,unique_files ~ turns,0.8741,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,unique_files ~ cache_read_tokens,0.8561,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,unique_files ~ verify_runs,0.3299,175,1.4e-05,1.7e-05,True,True,True
+exact_csv,tool+shell,1,175,28,unique_files ~ time_to_first_edit,0.8298,155,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,modules_touched ~ explore_chars_per_edit,0.4042,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,modules_touched ~ turns,0.8593,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,modules_touched ~ cache_read_tokens,0.8302,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,modules_touched ~ verify_runs,0.3415,175,7e-06,9e-06,True,True,True
+exact_csv,tool+shell,1,175,28,modules_touched ~ time_to_first_edit,0.8168,155,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,boundary_crossings ~ explore_chars_per_edit,0.392,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,boundary_crossings ~ turns,0.898,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,boundary_crossings ~ cache_read_tokens,0.878,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,boundary_crossings ~ verify_runs,0.3055,175,5.6e-05,6.8e-05,True,True,True
+exact_csv,tool+shell,1,175,28,boundary_crossings ~ time_to_first_edit,0.8476,155,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,crossing_rate ~ explore_chars_per_edit,0.1287,175,0.089608,0.096501,False,False,True
+exact_csv,tool+shell,1,175,28,crossing_rate ~ turns,0.3907,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,crossing_rate ~ cache_read_tokens,0.3712,175,1e-06,1e-06,True,True,True
+exact_csv,tool+shell,1,175,28,crossing_rate ~ verify_runs,0.2102,175,0.005561,0.006228,True,True,True
+exact_csv,tool+shell,1,175,28,crossing_rate ~ time_to_first_edit,0.3995,155,1e-06,1e-06,True,True,True
+exact_csv,tool+shell,1,175,28,reread_rate ~ explore_chars_per_edit,0.2229,175,0.003281,0.003828,True,True,True
+exact_csv,tool+shell,1,175,28,reread_rate ~ turns,0.6037,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,reread_rate ~ cache_read_tokens,0.6034,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,reread_rate ~ verify_runs,0.1047,175,0.167399,0.167399,False,False,False
+exact_csv,tool+shell,1,175,28,reread_rate ~ time_to_first_edit,0.5551,155,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,delegation_explore_per_edit,0.6121,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,1,175,28,delegation_crossing_rate,-0.1523,175,0.113876,0.118093,False,False,False
+exact_csv,tool+shell,1,175,28,codified_explore_per_edit,-0.5868,175,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,unique_files ~ explore_chars_per_edit,0.3854,168,1e-06,1e-06,True,True,True
+exact_csv,tool+shell,2,168,28,unique_files ~ turns,0.8651,168,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,unique_files ~ cache_read_tokens,0.846,168,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,unique_files ~ verify_runs,0.335,168,1.5e-05,2.2e-05,True,True,True
+exact_csv,tool+shell,2,168,28,unique_files ~ time_to_first_edit,0.8096,149,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,modules_touched ~ explore_chars_per_edit,0.3558,168,4e-06,7e-06,True,True,True
+exact_csv,tool+shell,2,168,28,modules_touched ~ turns,0.845,168,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,modules_touched ~ cache_read_tokens,0.8126,168,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,modules_touched ~ verify_runs,0.3469,168,7e-06,1.2e-05,True,True,True
+exact_csv,tool+shell,2,168,28,modules_touched ~ time_to_first_edit,0.7985,149,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,boundary_crossings ~ explore_chars_per_edit,0.3422,168,1e-05,1.5e-05,True,True,True
+exact_csv,tool+shell,2,168,28,boundary_crossings ~ turns,0.8886,168,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,boundary_crossings ~ cache_read_tokens,0.8665,168,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,boundary_crossings ~ verify_runs,0.3086,168,6.7e-05,8.5e-05,True,True,True
+exact_csv,tool+shell,2,168,28,boundary_crossings ~ time_to_first_edit,0.8333,149,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,crossing_rate ~ explore_chars_per_edit,0.0535,168,0.489361,0.489361,False,False,False
+exact_csv,tool+shell,2,168,28,crossing_rate ~ turns,0.3204,168,3.5e-05,4.9e-05,True,True,True
+exact_csv,tool+shell,2,168,28,crossing_rate ~ cache_read_tokens,0.2987,168,0.000113,0.000138,True,True,True
+exact_csv,tool+shell,2,168,28,crossing_rate ~ verify_runs,0.2073,168,0.007393,0.00828,True,True,True
+exact_csv,tool+shell,2,168,28,crossing_rate ~ time_to_first_edit,0.3315,149,5.5e-05,7.3e-05,True,True,True
+exact_csv,tool+shell,2,168,28,reread_rate ~ explore_chars_per_edit,0.1708,168,0.027334,0.029436,False,True,True
+exact_csv,tool+shell,2,168,28,reread_rate ~ turns,0.5658,168,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,reread_rate ~ cache_read_tokens,0.5647,168,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,reread_rate ~ verify_runs,0.0949,168,0.219924,0.228069,False,False,False
+exact_csv,tool+shell,2,168,28,reread_rate ~ time_to_first_edit,0.509,149,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,delegation_explore_per_edit,0.5682,168,0.0,0.0,True,True,True
+exact_csv,tool+shell,2,168,28,delegation_crossing_rate,-0.2786,168,0.005754,0.006713,True,True,True
+exact_csv,tool+shell,2,168,28,codified_explore_per_edit,-0.5611,168,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,unique_files ~ explore_chars_per_edit,0.3141,158,8.3e-05,0.000115,True,True,True
+exact_csv,tool+shell,3,158,28,unique_files ~ turns,0.8584,158,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,unique_files ~ cache_read_tokens,0.8384,158,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,unique_files ~ verify_runs,0.3427,158,1.8e-05,2.6e-05,True,True,True
+exact_csv,tool+shell,3,158,28,unique_files ~ time_to_first_edit,0.7941,142,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,modules_touched ~ explore_chars_per_edit,0.2719,158,0.000657,0.000836,True,True,True
+exact_csv,tool+shell,3,158,28,modules_touched ~ turns,0.8226,158,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,modules_touched ~ cache_read_tokens,0.7875,158,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,modules_touched ~ verify_runs,0.3557,158,8e-06,1.3e-05,True,True,True
+exact_csv,tool+shell,3,158,28,modules_touched ~ time_to_first_edit,0.7796,142,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,boundary_crossings ~ explore_chars_per_edit,0.2562,158,0.001329,0.001618,True,True,True
+exact_csv,tool+shell,3,158,28,boundary_crossings ~ turns,0.8748,158,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,boundary_crossings ~ cache_read_tokens,0.8518,158,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,boundary_crossings ~ verify_runs,0.3134,158,8.6e-05,0.000115,True,True,True
+exact_csv,tool+shell,3,158,28,boundary_crossings ~ time_to_first_edit,0.82,142,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,crossing_rate ~ explore_chars_per_edit,0.0583,158,0.464756,0.464756,False,False,False
+exact_csv,tool+shell,3,158,28,crossing_rate ~ turns,0.3765,158,2e-06,4e-06,True,True,True
+exact_csv,tool+shell,3,158,28,crossing_rate ~ cache_read_tokens,0.3597,158,7e-06,1.1e-05,True,True,True
+exact_csv,tool+shell,3,158,28,crossing_rate ~ verify_runs,0.2327,158,0.003548,0.004139,True,True,True
+exact_csv,tool+shell,3,158,28,crossing_rate ~ time_to_first_edit,0.3802,142,6e-06,1.1e-05,True,True,True
+exact_csv,tool+shell,3,158,28,reread_rate ~ explore_chars_per_edit,0.1281,158,0.108606,0.116961,False,False,False
+exact_csv,tool+shell,3,158,28,reread_rate ~ turns,0.5386,158,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,reread_rate ~ cache_read_tokens,0.5351,158,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,reread_rate ~ verify_runs,0.0838,158,0.293875,0.304759,False,False,False
+exact_csv,tool+shell,3,158,28,reread_rate ~ time_to_first_edit,0.4997,142,0.0,0.0,True,True,True
+exact_csv,tool+shell,3,158,28,delegation_explore_per_edit,0.5224,158,2e-06,3e-06,True,True,True
+exact_csv,tool+shell,3,158,28,delegation_crossing_rate,-0.2817,158,0.009634,0.01079,False,True,True
+exact_csv,tool+shell,3,158,28,codified_explore_per_edit,-0.5464,158,0.0,0.0,True,True,True
+exact_csv,tool+shell,5,121,28,unique_files ~ explore_chars_per_edit,-0.1718,121,0.059806,0.064406,False,False,True
+exact_csv,tool+shell,5,121,28,unique_files ~ turns,0.7761,121,0.0,0.0,True,True,True
+exact_csv,tool+shell,5,121,28,unique_files ~ cache_read_tokens,0.749,121,0.0,0.0,True,True,True
+exact_csv,tool+shell,5,121,28,unique_files ~ verify_runs,0.3734,121,4.3e-05,0.0001,True,True,True
+exact_csv,tool+shell,5,121,28,unique_files ~ time_to_first_edit,0.6532,109,0.0,0.0,True,True,True
+exact_csv,tool+shell,5,121,28,modules_touched ~ explore_chars_per_edit,-0.2665,121,0.003509,0.004912,True,True,True
+exact_csv,tool+shell,5,121,28,modules_touched ~ turns,0.6763,121,0.0,0.0,True,True,True
+exact_csv,tool+shell,5,121,28,modules_touched ~ cache_read_tokens,0.6147,121,0.0,0.0,True,True,True
+exact_csv,tool+shell,5,121,28,modules_touched ~ verify_runs,0.3948,121,1.5e-05,3.9e-05,True,True,True
+exact_csv,tool+shell,5,121,28,modules_touched ~ time_to_first_edit,0.594,109,0.0,0.0,True,True,True
+exact_csv,tool+shell,5,121,28,boundary_crossings ~ explore_chars_per_edit,-0.2905,121,0.001459,0.002404,True,True,True
+exact_csv,tool+shell,5,121,28,boundary_crossings ~ turns,0.7816,121,0.0,0.0,True,True,True
+exact_csv,tool+shell,5,121,28,boundary_crossings ~ cache_read_tokens,0.7446,121,0.0,0.0,True,True,True
+exact_csv,tool+shell,5,121,28,boundary_crossings ~ verify_runs,0.3307,121,0.000292,0.000511,True,True,True
+exact_csv,tool+shell,5,121,28,boundary_crossings ~ time_to_first_edit,0.6842,109,0.0,0.0,True,True,True
+exact_csv,tool+shell,5,121,28,crossing_rate ~ explore_chars_per_edit,-0.3524,121,0.000113,0.000244,True,True,True
+exact_csv,tool+shell,5,121,28,crossing_rate ~ turns,0.2039,121,0.025475,0.031013,False,True,True
+exact_csv,tool+shell,5,121,28,crossing_rate ~ cache_read_tokens,0.1775,121,0.051863,0.058087,False,False,True
+exact_csv,tool+shell,5,121,28,crossing_rate ~ verify_runs,0.253,121,0.005579,0.007439,True,True,True
+exact_csv,tool+shell,5,121,28,crossing_rate ~ time_to_first_edit,0.121,109,0.20872,0.216451,False,False,False
+exact_csv,tool+shell,5,121,28,reread_rate ~ explore_chars_per_edit,-0.204,121,0.025429,0.031013,False,True,True
+exact_csv,tool+shell,5,121,28,reread_rate ~ turns,0.3419,121,0.00018,0.000361,True,True,True
+exact_csv,tool+shell,5,121,28,reread_rate ~ cache_read_tokens,0.3355,121,0.000238,0.000444,True,True,True
+exact_csv,tool+shell,5,121,28,reread_rate ~ verify_runs,0.0365,121,0.689107,0.689107,False,False,False
+exact_csv,tool+shell,5,121,28,reread_rate ~ time_to_first_edit,0.2991,109,0.001878,0.002922,True,True,True
+exact_csv,tool+shell,5,121,28,delegation_explore_per_edit,0.6856,121,0.0,1e-06,True,True,True
+exact_csv,tool+shell,5,121,28,delegation_crossing_rate,-0.2758,121,0.036931,0.043086,False,True,True
+exact_csv,tool+shell,5,121,28,codified_explore_per_edit,-0.3604,121,0.002115,0.003117,True,True,True
+exact_csv,tool+shell,10,92,28,unique_files ~ explore_chars_per_edit,-0.2967,92,0.004654,0.006516,True,True,True
+exact_csv,tool+shell,10,92,28,unique_files ~ turns,0.735,92,0.0,0.0,True,True,True
+exact_csv,tool+shell,10,92,28,unique_files ~ cache_read_tokens,0.6951,92,0.0,0.0,True,True,True
+exact_csv,tool+shell,10,92,28,unique_files ~ verify_runs,0.4013,92,0.000129,0.000278,True,True,True
+exact_csv,tool+shell,10,92,28,unique_files ~ time_to_first_edit,0.5544,89,0.0,1e-06,True,True,True
+exact_csv,tool+shell,10,92,28,modules_touched ~ explore_chars_per_edit,-0.3932,92,0.000176,0.000352,True,True,True
+exact_csv,tool+shell,10,92,28,modules_touched ~ turns,0.5861,92,0.0,0.0,True,True,True
+exact_csv,tool+shell,10,92,28,modules_touched ~ cache_read_tokens,0.4943,92,2e-06,8e-06,True,True,True
+exact_csv,tool+shell,10,92,28,modules_touched ~ verify_runs,0.4341,92,3.5e-05,9.7e-05,True,True,True
+exact_csv,tool+shell,10,92,28,modules_touched ~ time_to_first_edit,0.4792,89,7e-06,2.2e-05,True,True,True
+exact_csv,tool+shell,10,92,28,boundary_crossings ~ explore_chars_per_edit,-0.3633,92,0.000529,0.000988,True,True,True
+exact_csv,tool+shell,10,92,28,boundary_crossings ~ turns,0.7632,92,0.0,0.0,True,True,True
+exact_csv,tool+shell,10,92,28,boundary_crossings ~ cache_read_tokens,0.7104,92,0.0,0.0,True,True,True
+exact_csv,tool+shell,10,92,28,boundary_crossings ~ verify_runs,0.3374,92,0.001288,0.002255,True,True,True
+exact_csv,tool+shell,10,92,28,boundary_crossings ~ time_to_first_edit,0.6192,89,0.0,0.0,True,True,True
+exact_csv,tool+shell,10,92,28,crossing_rate ~ explore_chars_per_edit,-0.4291,92,4.2e-05,0.000108,True,True,True
+exact_csv,tool+shell,10,92,28,crossing_rate ~ turns,0.3116,92,0.002957,0.004871,True,True,True
+exact_csv,tool+shell,10,92,28,crossing_rate ~ cache_read_tokens,0.2753,92,0.008636,0.011515,False,True,True
+exact_csv,tool+shell,10,92,28,crossing_rate ~ verify_runs,0.304,92,0.003733,0.005807,True,True,True
+exact_csv,tool+shell,10,92,28,crossing_rate ~ time_to_first_edit,0.1767,89,0.097308,0.108985,False,False,False
+exact_csv,tool+shell,10,92,28,reread_rate ~ explore_chars_per_edit,0.0232,92,0.824722,0.824722,False,False,False
+exact_csv,tool+shell,10,92,28,reread_rate ~ turns,0.2007,92,0.055576,0.067657,False,False,True
+exact_csv,tool+shell,10,92,28,reread_rate ~ cache_read_tokens,0.1976,92,0.059423,0.069327,False,False,True
+exact_csv,tool+shell,10,92,28,reread_rate ~ verify_runs,-0.0333,92,0.750837,0.778646,False,False,False
+exact_csv,tool+shell,10,92,28,reread_rate ~ time_to_first_edit,0.2508,89,0.018646,0.023731,False,True,True
+exact_csv,tool+shell,10,92,28,delegation_explore_per_edit,0.6217,92,9.9e-05,0.00023,True,True,True
+exact_csv,tool+shell,10,92,28,delegation_crossing_rate,-0.4589,92,0.004053,0.005973,True,True,True
+exact_csv,tool+shell,10,92,28,codified_explore_per_edit,-0.2005,92,0.135834,0.146283,False,False,False
+exact_csv,tool+shell,20,52,28,unique_files ~ explore_chars_per_edit,-0.5718,52,4.4e-05,0.000248,True,True,True
+exact_csv,tool+shell,20,52,28,unique_files ~ turns,0.6151,52,1.1e-05,0.000104,True,True,True
+exact_csv,tool+shell,20,52,28,unique_files ~ cache_read_tokens,0.5273,52,0.000166,0.000495,True,True,True
+exact_csv,tool+shell,20,52,28,unique_files ~ verify_runs,0.5284,52,0.000161,0.000495,True,True,True
+exact_csv,tool+shell,20,52,28,unique_files ~ time_to_first_edit,0.3035,52,0.030223,0.04079,False,True,True
+exact_csv,tool+shell,20,52,28,modules_touched ~ explore_chars_per_edit,-0.6451,52,4e-06,5.7e-05,True,True,True
+exact_csv,tool+shell,20,52,28,modules_touched ~ turns,0.5352,52,0.000132,0.000495,True,True,True
+exact_csv,tool+shell,20,52,28,modules_touched ~ cache_read_tokens,0.4308,52,0.002094,0.004189,True,True,True
+exact_csv,tool+shell,20,52,28,modules_touched ~ verify_runs,0.4996,52,0.00036,0.000915,True,True,True
+exact_csv,tool+shell,20,52,28,modules_touched ~ time_to_first_edit,0.3028,52,0.030593,0.04079,False,True,True
+exact_csv,tool+shell,20,52,28,boundary_crossings ~ explore_chars_per_edit,-0.5736,52,4.2e-05,0.000248,True,True,True
+exact_csv,tool+shell,20,52,28,boundary_crossings ~ turns,0.6481,52,4e-06,5.7e-05,True,True,True
+exact_csv,tool+shell,20,52,28,boundary_crossings ~ cache_read_tokens,0.5523,52,8e-05,0.000373,True,True,True
+exact_csv,tool+shell,20,52,28,boundary_crossings ~ verify_runs,0.376,52,0.007242,0.011928,False,True,True
+exact_csv,tool+shell,20,52,28,boundary_crossings ~ time_to_first_edit,0.4443,52,0.00151,0.003273,True,True,True
+exact_csv,tool+shell,20,52,28,crossing_rate ~ explore_chars_per_edit,-0.5251,52,0.000177,0.000495,True,True,True
+exact_csv,tool+shell,20,52,28,crossing_rate ~ turns,0.4251,52,0.002401,0.004481,True,True,True
+exact_csv,tool+shell,20,52,28,crossing_rate ~ cache_read_tokens,0.3557,52,0.011076,0.01723,False,True,True
+exact_csv,tool+shell,20,52,28,crossing_rate ~ verify_runs,0.3433,52,0.014214,0.020948,False,True,True
+exact_csv,tool+shell,20,52,28,crossing_rate ~ time_to_first_edit,0.2531,52,0.070658,0.089928,False,False,True
+exact_csv,tool+shell,20,52,28,reread_rate ~ explore_chars_per_edit,0.108,52,0.440399,0.474276,False,False,False
+exact_csv,tool+shell,20,52,28,reread_rate ~ turns,0.1211,52,0.387034,0.433478,False,False,False
+exact_csv,tool+shell,20,52,28,reread_rate ~ cache_read_tokens,0.1822,52,0.19329,0.225505,False,False,False
+exact_csv,tool+shell,20,52,28,reread_rate ~ verify_runs,-0.0429,52,0.759291,0.787413,False,False,False
+exact_csv,tool+shell,20,52,28,reread_rate ~ time_to_first_edit,0.1877,52,0.18014,0.219301,False,False,False
+exact_csv,tool+shell,20,52,28,delegation_explore_per_edit,0.6083,52,0.00152,0.003273,True,True,True
+exact_csv,tool+shell,20,52,28,delegation_crossing_rate,-0.5667,52,0.00314,0.005494,True,True,True
+exact_csv,tool+shell,20,52,28,codified_explore_per_edit,0.0162,52,0.92758,0.92758,False,False,False
+s01_session_csv,tool_only_session_unit,1,172,28,unique_files ~ explore_chars_per_edit,0.6739,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,unique_files ~ turns,0.7531,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,unique_files ~ cache_read_tokens,0.7511,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,unique_files ~ verify_runs,0.2827,172,0.000218,0.000278,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,unique_files ~ time_to_first_edit,0.6597,153,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,modules_touched ~ explore_chars_per_edit,0.6018,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,modules_touched ~ turns,0.7527,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,modules_touched ~ cache_read_tokens,0.7336,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,modules_touched ~ verify_runs,0.2422,172,0.001538,0.001723,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,modules_touched ~ time_to_first_edit,0.6955,153,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,boundary_crossings ~ explore_chars_per_edit,0.606,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,boundary_crossings ~ turns,0.7981,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,boundary_crossings ~ cache_read_tokens,0.7876,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,boundary_crossings ~ verify_runs,0.2522,172,0.000973,0.001136,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,boundary_crossings ~ time_to_first_edit,0.7283,153,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,crossing_rate ~ explore_chars_per_edit,0.3142,172,4e-05,5.6e-05,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,crossing_rate ~ turns,0.326,172,2e-05,3e-05,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,crossing_rate ~ cache_read_tokens,0.3074,172,5.8e-05,7.8e-05,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,crossing_rate ~ verify_runs,0.069,172,0.366634,0.394837,False,False,False
+s01_session_csv,tool_only_session_unit,1,172,28,crossing_rate ~ time_to_first_edit,0.4107,153,0.0,1e-06,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,reread_rate ~ explore_chars_per_edit,0.2556,172,0.00083,0.00101,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,reread_rate ~ turns,0.5175,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,reread_rate ~ cache_read_tokens,0.512,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,reread_rate ~ verify_runs,0.0563,172,0.461674,0.478773,False,False,False
+s01_session_csv,tool_only_session_unit,1,172,28,reread_rate ~ time_to_first_edit,0.4889,153,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,delegation_explore_per_edit,0.5046,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,1,172,28,delegation_crossing_rate,0.0463,172,0.636034,0.636034,False,False,False
+s01_session_csv,tool_only_session_unit,1,172,28,codified_explore_per_edit,-0.6134,172,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,unique_files ~ explore_chars_per_edit,0.6537,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,unique_files ~ turns,0.7231,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,unique_files ~ cache_read_tokens,0.7237,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,unique_files ~ verify_runs,0.2856,162,0.00029,0.000427,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,unique_files ~ time_to_first_edit,0.6274,144,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,modules_touched ~ explore_chars_per_edit,0.5565,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,modules_touched ~ turns,0.7099,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,modules_touched ~ cache_read_tokens,0.6892,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,modules_touched ~ verify_runs,0.2409,162,0.002236,0.002981,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,modules_touched ~ time_to_first_edit,0.651,144,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,boundary_crossings ~ explore_chars_per_edit,0.5613,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,boundary_crossings ~ turns,0.7646,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,boundary_crossings ~ cache_read_tokens,0.7542,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,boundary_crossings ~ verify_runs,0.2516,162,0.001413,0.001978,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,boundary_crossings ~ time_to_first_edit,0.6912,144,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,crossing_rate ~ explore_chars_per_edit,0.2182,162,0.005636,0.007173,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,crossing_rate ~ turns,0.2046,162,0.009416,0.011463,False,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,crossing_rate ~ cache_read_tokens,0.187,162,0.017628,0.019744,False,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,crossing_rate ~ verify_runs,0.051,162,0.517235,0.536392,False,False,False
+s01_session_csv,tool_only_session_unit,2,162,28,crossing_rate ~ time_to_first_edit,0.3066,144,0.000246,0.000383,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,reread_rate ~ explore_chars_per_edit,0.1886,162,0.016704,0.019488,False,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,reread_rate ~ turns,0.4593,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,reread_rate ~ cache_read_tokens,0.4538,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,reread_rate ~ verify_runs,0.0365,162,0.643003,0.643003,False,False,False
+s01_session_csv,tool_only_session_unit,2,162,28,reread_rate ~ time_to_first_edit,0.4257,144,0.0,1e-06,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,delegation_explore_per_edit,0.4447,162,2.5e-05,4.1e-05,True,True,True
+s01_session_csv,tool_only_session_unit,2,162,28,delegation_crossing_rate,-0.124,162,0.240022,0.258486,False,False,False
+s01_session_csv,tool_only_session_unit,2,162,28,codified_explore_per_edit,-0.5773,162,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,unique_files ~ explore_chars_per_edit,0.6307,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,unique_files ~ turns,0.7201,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,unique_files ~ cache_read_tokens,0.726,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,unique_files ~ verify_runs,0.2892,148,0.000454,0.000747,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,unique_files ~ time_to_first_edit,0.6361,134,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,modules_touched ~ explore_chars_per_edit,0.4756,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,modules_touched ~ turns,0.6736,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,modules_touched ~ cache_read_tokens,0.6557,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,modules_touched ~ verify_runs,0.2405,148,0.00355,0.004733,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,modules_touched ~ time_to_first_edit,0.6284,134,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,boundary_crossings ~ explore_chars_per_edit,0.4833,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,boundary_crossings ~ turns,0.7411,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,boundary_crossings ~ cache_read_tokens,0.734,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,boundary_crossings ~ verify_runs,0.2498,148,0.002452,0.003571,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,boundary_crossings ~ time_to_first_edit,0.6772,134,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,crossing_rate ~ explore_chars_per_edit,0.1899,148,0.021332,0.025969,False,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,crossing_rate ~ turns,0.1915,148,0.020232,0.02575,False,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,crossing_rate ~ cache_read_tokens,0.1864,148,0.023848,0.027823,False,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,crossing_rate ~ verify_runs,0.0586,148,0.477742,0.495436,False,False,False
+s01_session_csv,tool_only_session_unit,3,148,28,crossing_rate ~ time_to_first_edit,0.2616,134,0.002551,0.003571,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,reread_rate ~ explore_chars_per_edit,0.1654,148,0.044926,0.050318,False,False,True
+s01_session_csv,tool_only_session_unit,3,148,28,reread_rate ~ turns,0.4611,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,reread_rate ~ cache_read_tokens,0.4493,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,reread_rate ~ verify_runs,0.027,148,0.743324,0.743324,False,False,False
+s01_session_csv,tool_only_session_unit,3,148,28,reread_rate ~ time_to_first_edit,0.452,134,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,delegation_explore_per_edit,0.3825,148,0.001242,0.001932,True,True,True
+s01_session_csv,tool_only_session_unit,3,148,28,delegation_crossing_rate,-0.2297,148,0.052513,0.056552,False,False,True
+s01_session_csv,tool_only_session_unit,3,148,28,codified_explore_per_edit,-0.5758,148,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,unique_files ~ explore_chars_per_edit,0.398,110,3.3e-05,0.000114,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,unique_files ~ turns,0.5303,110,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,unique_files ~ cache_read_tokens,0.5491,110,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,unique_files ~ verify_runs,0.2894,110,0.002512,0.005411,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,unique_files ~ time_to_first_edit,0.4393,99,1.4e-05,5.5e-05,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,modules_touched ~ explore_chars_per_edit,0.0346,110,0.717653,0.772857,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,modules_touched ~ turns,0.4165,110,1.4e-05,5.5e-05,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,modules_touched ~ cache_read_tokens,0.3811,110,6.9e-05,0.000216,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,modules_touched ~ verify_runs,0.2347,110,0.014279,0.024987,False,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,modules_touched ~ time_to_first_edit,0.3534,99,0.000467,0.00119,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,boundary_crossings ~ explore_chars_per_edit,0.0634,110,0.508196,0.646794,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,boundary_crossings ~ turns,0.5301,110,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,boundary_crossings ~ cache_read_tokens,0.5171,110,0.0,0.0,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,boundary_crossings ~ verify_runs,0.2386,110,0.012754,0.023808,False,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,boundary_crossings ~ time_to_first_edit,0.4483,99,9e-06,5.1e-05,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,crossing_rate ~ explore_chars_per_edit,-0.118,110,0.217999,0.321262,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,crossing_rate ~ turns,-0.0355,110,0.710549,0.772857,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,crossing_rate ~ cache_read_tokens,-0.0428,110,0.655042,0.764216,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,crossing_rate ~ verify_runs,0.0583,110,0.542734,0.66072,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,crossing_rate ~ time_to_first_edit,0.0047,99,0.963244,0.963244,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,reread_rate ~ explore_chars_per_edit,-0.2632,110,0.005989,0.011978,False,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,reread_rate ~ turns,0.1532,110,0.109803,0.180852,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,reread_rate ~ cache_read_tokens,0.1261,110,0.187896,0.292283,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,reread_rate ~ verify_runs,-0.0766,110,0.424001,0.565335,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,reread_rate ~ time_to_first_edit,0.1193,99,0.237621,0.33267,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,delegation_explore_per_edit,0.5408,110,0.000218,0.000612,True,True,True
+s01_session_csv,tool_only_session_unit,5,110,28,delegation_crossing_rate,0.0179,110,0.902452,0.935876,False,False,False
+s01_session_csv,tool_only_session_unit,5,110,28,codified_explore_per_edit,-0.4051,110,0.001419,0.003311,True,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,unique_files ~ explore_chars_per_edit,0.3927,71,0.001016,0.003557,True,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,unique_files ~ turns,0.4816,71,5.6e-05,0.000455,True,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,unique_files ~ cache_read_tokens,0.5168,71,1.5e-05,0.000429,True,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,unique_files ~ verify_runs,0.4471,71,0.000184,0.000734,True,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,unique_files ~ time_to_first_edit,0.2935,69,0.015494,0.036153,False,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,modules_touched ~ explore_chars_per_edit,-0.0315,71,0.792442,0.843486,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,modules_touched ~ turns,0.2931,71,0.014183,0.036103,False,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,modules_touched ~ cache_read_tokens,0.241,71,0.043725,0.087451,False,False,True
+s01_session_csv,tool_only_session_unit,10,71,28,modules_touched ~ verify_runs,0.4714,71,8e-05,0.000455,True,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,modules_touched ~ time_to_first_edit,0.2205,69,0.069044,0.128882,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,boundary_crossings ~ explore_chars_per_edit,0.0682,71,0.568505,0.732557,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,boundary_crossings ~ turns,0.471,71,8.1e-05,0.000455,True,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,boundary_crossings ~ cache_read_tokens,0.4763,71,6.7e-05,0.000455,True,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,boundary_crossings ~ verify_runs,0.4478,71,0.000179,0.000734,True,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,boundary_crossings ~ time_to_first_edit,0.301,69,0.013061,0.036103,False,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,crossing_rate ~ explore_chars_per_edit,-0.0607,71,0.611344,0.732557,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,crossing_rate ~ turns,0.0825,71,0.490035,0.686049,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,crossing_rate ~ cache_read_tokens,0.0581,71,0.626785,0.732557,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,crossing_rate ~ verify_runs,0.1185,71,0.321615,0.474107,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,crossing_rate ~ time_to_first_edit,0.1202,69,0.321715,0.474107,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,reread_rate ~ explore_chars_per_edit,-0.2803,71,0.019027,0.04098,False,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,reread_rate ~ turns,0.0282,71,0.813362,0.843486,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,reread_rate ~ cache_read_tokens,0.0084,71,0.943952,0.943952,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,reread_rate ~ verify_runs,-0.1323,71,0.268195,0.441732,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,reread_rate ~ time_to_first_edit,0.0408,69,0.736423,0.824794,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,delegation_explore_per_edit,0.4818,71,0.011515,0.035824,False,True,True
+s01_session_csv,tool_only_session_unit,10,71,28,delegation_crossing_rate,-0.0924,71,0.627906,0.732557,False,False,False
+s01_session_csv,tool_only_session_unit,10,71,28,codified_explore_per_edit,-0.2704,71,0.088183,0.15432,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,unique_files ~ explore_chars_per_edit,-0.236,24,0.257764,0.328063,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,unique_files ~ turns,0.5317,24,0.01078,0.033538,False,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,unique_files ~ cache_read_tokens,0.4548,24,0.029158,0.068035,False,False,True
+s01_session_csv,tool_only_session_unit,20,24,28,unique_files ~ verify_runs,0.7164,24,0.000591,0.003805,True,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,unique_files ~ time_to_first_edit,0.0912,24,0.662006,0.741447,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,modules_touched ~ explore_chars_per_edit,-0.5224,24,0.01223,0.034243,False,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,modules_touched ~ turns,0.698,24,0.000815,0.003805,True,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,modules_touched ~ cache_read_tokens,0.6015,24,0.003917,0.013708,False,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,modules_touched ~ verify_runs,0.73,24,0.000464,0.003805,True,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,modules_touched ~ time_to_first_edit,0.4386,24,0.035415,0.076279,False,False,True
+s01_session_csv,tool_only_session_unit,20,24,28,boundary_crossings ~ explore_chars_per_edit,-0.5112,24,0.014222,0.036201,False,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,boundary_crossings ~ turns,0.7059,24,0.000711,0.003805,True,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,boundary_crossings ~ cache_read_tokens,0.6519,24,0.001769,0.007075,True,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,boundary_crossings ~ verify_runs,0.7161,24,0.000594,0.003805,True,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,boundary_crossings ~ time_to_first_edit,0.3622,24,0.082338,0.143981,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,crossing_rate ~ explore_chars_per_edit,-0.2561,24,0.21929,0.292387,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,crossing_rate ~ turns,0.3792,24,0.068999,0.128798,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,crossing_rate ~ cache_read_tokens,0.3127,24,0.133732,0.187225,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,crossing_rate ~ verify_runs,0.3564,24,0.087417,0.143981,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,crossing_rate ~ time_to_first_edit,0.3916,24,0.060407,0.120814,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,reread_rate ~ explore_chars_per_edit,0.02,24,0.92357,0.957777,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,reread_rate ~ turns,-0.126,24,0.545809,0.636777,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,reread_rate ~ cache_read_tokens,-0.0478,24,0.818546,0.881511,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,reread_rate ~ verify_runs,-0.3331,24,0.110135,0.162304,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,reread_rate ~ time_to_first_edit,-0.0089,24,0.965845,0.965845,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,delegation_explore_per_edit,1.0,24,0.000734,0.003805,True,True,True
+s01_session_csv,tool_only_session_unit,20,24,28,delegation_crossing_rate,-0.4947,24,0.094836,0.147522,False,False,False
+s01_session_csv,tool_only_session_unit,20,24,28,codified_explore_per_edit,0.2605,24,0.324911,0.395544,False,False,False
+reconstructed,T1_tool,1,89,28,unique_files ~ explore_chars_per_edit,0.5764,89,0.0,0.0,True,True,True
+reconstructed,T1_tool,1,89,28,unique_files ~ turns,0.7533,89,0.0,0.0,True,True,True
+reconstructed,T1_tool,1,89,28,unique_files ~ cache_read_tokens,0.7542,89,0.0,0.0,True,True,True
+reconstructed,T1_tool,1,89,28,unique_files ~ verify_runs,0.33,89,0.001964,0.002895,True,True,True
+reconstructed,T1_tool,1,89,28,unique_files ~ time_to_first_edit,0.6909,78,0.0,0.0,True,True,True
+reconstructed,T1_tool,1,89,28,modules_touched ~ explore_chars_per_edit,0.5334,89,1e-06,1e-06,True,True,True
+reconstructed,T1_tool,1,89,28,modules_touched ~ turns,0.7039,89,0.0,0.0,True,True,True
+reconstructed,T1_tool,1,89,28,modules_touched ~ cache_read_tokens,0.6828,89,0.0,0.0,True,True,True
+reconstructed,T1_tool,1,89,28,modules_touched ~ verify_runs,0.2396,89,0.024588,0.028686,False,True,True
+reconstructed,T1_tool,1,89,28,modules_touched ~ time_to_first_edit,0.6975,78,0.0,0.0,True,True,True
+reconstructed,T1_tool,1,89,28,boundary_crossings ~ explore_chars_per_edit,0.4833,89,6e-06,1.2e-05,True,True,True
+reconstructed,T1_tool,1,89,28,boundary_crossings ~ turns,0.7512,89,0.0,0.0,True,True,True
+reconstructed,T1_tool,1,89,28,boundary_crossings ~ cache_read_tokens,0.7349,89,0.0,0.0,True,True,True
+reconstructed,T1_tool,1,89,28,boundary_crossings ~ verify_runs,0.258,89,0.015511,0.020681,False,True,True
+reconstructed,T1_tool,1,89,28,boundary_crossings ~ time_to_first_edit,0.7258,78,0.0,0.0,True,True,True
+reconstructed,T1_tool,1,89,28,crossing_rate ~ explore_chars_per_edit,0.2507,89,0.018693,0.022757,False,True,True
+reconstructed,T1_tool,1,89,28,crossing_rate ~ turns,0.2734,89,0.010312,0.014437,False,True,True
+reconstructed,T1_tool,1,89,28,crossing_rate ~ cache_read_tokens,0.2526,89,0.017792,0.022645,False,True,True
+reconstructed,T1_tool,1,89,28,crossing_rate ~ verify_runs,0.0673,89,0.527725,0.568319,False,False,False
+reconstructed,T1_tool,1,89,28,crossing_rate ~ time_to_first_edit,0.4176,78,0.000247,0.000433,True,True,True
+reconstructed,T1_tool,1,89,28,reread_rate ~ explore_chars_per_edit,0.1681,89,0.114917,0.128707,False,False,False
+reconstructed,T1_tool,1,89,28,reread_rate ~ turns,0.3958,89,0.000205,0.000382,True,True,True
+reconstructed,T1_tool,1,89,28,reread_rate ~ cache_read_tokens,0.3806,89,0.000356,0.000587,True,True,True
+reconstructed,T1_tool,1,89,28,reread_rate ~ verify_runs,0.0576,89,0.589102,0.610921,False,False,False
+reconstructed,T1_tool,1,89,28,reread_rate ~ time_to_first_edit,0.3915,78,0.000591,0.000919,True,True,True
+reconstructed,T1_tool,1,89,28,delegation_explore_per_edit,0.6061,89,1.6e-05,3.2e-05,True,True,True
+reconstructed,T1_tool,1,89,28,delegation_crossing_rate,0.0382,89,0.785784,0.785784,False,False,False
+reconstructed,T1_tool,1,89,28,codified_explore_per_edit,-0.586,89,3e-06,7e-06,True,True,True
+reconstructed,T1_tool,2,86,28,unique_files ~ explore_chars_per_edit,0.5308,86,1e-06,3e-06,True,True,True
+reconstructed,T1_tool,2,86,28,unique_files ~ turns,0.7383,86,0.0,0.0,True,True,True
+reconstructed,T1_tool,2,86,28,unique_files ~ cache_read_tokens,0.7419,86,0.0,0.0,True,True,True
+reconstructed,T1_tool,2,86,28,unique_files ~ verify_runs,0.333,86,0.002142,0.003528,True,True,True
+reconstructed,T1_tool,2,86,28,unique_files ~ time_to_first_edit,0.6565,75,0.0,0.0,True,True,True
+reconstructed,T1_tool,2,86,28,modules_touched ~ explore_chars_per_edit,0.4855,86,8e-06,1.9e-05,True,True,True
+reconstructed,T1_tool,2,86,28,modules_touched ~ turns,0.675,86,0.0,0.0,True,True,True
+reconstructed,T1_tool,2,86,28,modules_touched ~ cache_read_tokens,0.6531,86,0.0,0.0,True,True,True
+reconstructed,T1_tool,2,86,28,modules_touched ~ verify_runs,0.2375,86,0.02852,0.038027,False,True,True
+reconstructed,T1_tool,2,86,28,modules_touched ~ time_to_first_edit,0.6658,75,0.0,0.0,True,True,True
+reconstructed,T1_tool,2,86,28,boundary_crossings ~ explore_chars_per_edit,0.4307,86,7.2e-05,0.000154,True,True,True
+reconstructed,T1_tool,2,86,28,boundary_crossings ~ turns,0.7275,86,0.0,0.0,True,True,True
+reconstructed,T1_tool,2,86,28,boundary_crossings ~ cache_read_tokens,0.7108,86,0.0,0.0,True,True,True
+reconstructed,T1_tool,2,86,28,boundary_crossings ~ verify_runs,0.2567,86,0.017932,0.025104,False,True,True
+reconstructed,T1_tool,2,86,28,boundary_crossings ~ time_to_first_edit,0.6981,75,0.0,0.0,True,True,True
+reconstructed,T1_tool,2,86,28,crossing_rate ~ explore_chars_per_edit,0.1734,86,0.109994,0.128326,False,False,False
+reconstructed,T1_tool,2,86,28,crossing_rate ~ turns,0.2028,86,0.061569,0.078361,False,False,True
+reconstructed,T1_tool,2,86,28,crossing_rate ~ cache_read_tokens,0.1821,86,0.093235,0.113503,False,False,False
+reconstructed,T1_tool,2,86,28,crossing_rate ~ verify_runs,0.0558,86,0.606819,0.629294,False,False,False
+reconstructed,T1_tool,2,86,28,crossing_rate ~ time_to_first_edit,0.3507,75,0.002551,0.003968,True,True,True
+reconstructed,T1_tool,2,86,28,reread_rate ~ explore_chars_per_edit,0.1156,86,0.286673,0.321074,False,False,False
+reconstructed,T1_tool,2,86,28,reread_rate ~ turns,0.3569,86,0.001,0.001866,True,True,True
+reconstructed,T1_tool,2,86,28,reread_rate ~ cache_read_tokens,0.3386,86,0.0018,0.00315,True,True,True
+reconstructed,T1_tool,2,86,28,reread_rate ~ verify_runs,0.0482,86,0.657089,0.657089,False,False,False
+reconstructed,T1_tool,2,86,28,reread_rate ~ time_to_first_edit,0.3462,75,0.002897,0.004269,True,True,True
+reconstructed,T1_tool,2,86,28,delegation_explore_per_edit,0.547,86,0.000224,0.000448,True,True,True
+reconstructed,T1_tool,2,86,28,delegation_crossing_rate,-0.0833,86,0.573966,0.618117,False,False,False
+reconstructed,T1_tool,2,86,28,codified_explore_per_edit,-0.5483,86,2.1e-05,4.8e-05,True,True,True
+reconstructed,T1_tool,3,77,28,unique_files ~ explore_chars_per_edit,0.4622,77,5.6e-05,0.000157,True,True,True
+reconstructed,T1_tool,3,77,28,unique_files ~ turns,0.7628,77,0.0,0.0,True,True,True
+reconstructed,T1_tool,3,77,28,unique_files ~ cache_read_tokens,0.7756,77,0.0,0.0,True,True,True
+reconstructed,T1_tool,3,77,28,unique_files ~ verify_runs,0.3419,77,0.002875,0.005032,True,True,True
+reconstructed,T1_tool,3,77,28,unique_files ~ time_to_first_edit,0.653,68,0.0,0.0,True,True,True
+reconstructed,T1_tool,3,77,28,modules_touched ~ explore_chars_per_edit,0.3643,77,0.001494,0.002988,True,True,True
+reconstructed,T1_tool,3,77,28,modules_touched ~ turns,0.6347,77,0.0,0.0,True,True,True
+reconstructed,T1_tool,3,77,28,modules_touched ~ cache_read_tokens,0.6206,77,0.0,0.0,True,True,True
+reconstructed,T1_tool,3,77,28,modules_touched ~ verify_runs,0.2349,77,0.040605,0.05414,False,False,True
+reconstructed,T1_tool,3,77,28,modules_touched ~ time_to_first_edit,0.6254,68,0.0,1e-06,True,True,True
+reconstructed,T1_tool,3,77,28,boundary_crossings ~ explore_chars_per_edit,0.2916,77,0.011029,0.017157,False,True,True
+reconstructed,T1_tool,3,77,28,boundary_crossings ~ turns,0.7047,77,0.0,0.0,True,True,True
+reconstructed,T1_tool,3,77,28,boundary_crossings ~ cache_read_tokens,0.6939,77,0.0,0.0,True,True,True
+reconstructed,T1_tool,3,77,28,boundary_crossings ~ verify_runs,0.2514,77,0.028435,0.039809,False,True,True
+reconstructed,T1_tool,3,77,28,boundary_crossings ~ time_to_first_edit,0.6727,68,0.0,0.0,True,True,True
+reconstructed,T1_tool,3,77,28,crossing_rate ~ explore_chars_per_edit,0.135,77,0.239224,0.267931,False,False,False
+reconstructed,T1_tool,3,77,28,crossing_rate ~ turns,0.1625,77,0.156702,0.197168,False,False,False
+reconstructed,T1_tool,3,77,28,crossing_rate ~ cache_read_tokens,0.1604,77,0.16196,0.197168,False,False,False
+reconstructed,T1_tool,3,77,28,crossing_rate ~ verify_runs,0.072,77,0.529992,0.549622,False,False,False
+reconstructed,T1_tool,3,77,28,crossing_rate ~ time_to_first_edit,0.2737,68,0.025058,0.036928,False,True,True
+reconstructed,T1_tool,3,77,28,reread_rate ~ explore_chars_per_edit,0.0736,77,0.521231,0.549622,False,False,False
+reconstructed,T1_tool,3,77,28,reread_rate ~ turns,0.383,77,0.00084,0.0019,True,True,True
+reconstructed,T1_tool,3,77,28,reread_rate ~ cache_read_tokens,0.3613,77,0.001635,0.003052,True,True,True
+reconstructed,T1_tool,3,77,28,reread_rate ~ verify_runs,0.0387,77,0.735978,0.735978,False,False,False
+reconstructed,T1_tool,3,77,28,reread_rate ~ time_to_first_edit,0.4063,68,0.000882,0.0019,True,True,True
+reconstructed,T1_tool,3,77,28,delegation_explore_per_edit,0.4639,77,0.008679,0.014294,False,True,True
+reconstructed,T1_tool,3,77,28,delegation_crossing_rate,-0.2139,77,0.226187,0.263884,False,False,False
+reconstructed,T1_tool,3,77,28,codified_explore_per_edit,-0.5423,77,8.2e-05,0.000208,True,True,True
+reconstructed,T1_tool,5,58,28,unique_files ~ explore_chars_per_edit,0.2357,58,0.075132,0.140246,False,False,False
+reconstructed,T1_tool,5,58,28,unique_files ~ turns,0.5719,58,1.6e-05,0.00022,True,True,True
+reconstructed,T1_tool,5,58,28,unique_files ~ cache_read_tokens,0.5974,58,6e-06,0.000181,True,True,True
+reconstructed,T1_tool,5,58,28,unique_files ~ verify_runs,0.3554,58,0.0073,0.022711,False,True,True
+reconstructed,T1_tool,5,58,28,unique_files ~ time_to_first_edit,0.4473,52,0.001402,0.007852,True,True,True
+reconstructed,T1_tool,5,58,28,modules_touched ~ explore_chars_per_edit,0.0388,58,0.769582,0.8938,False,False,False
+reconstructed,T1_tool,5,58,28,modules_touched ~ turns,0.3596,58,0.006625,0.022711,False,True,True
+reconstructed,T1_tool,5,58,28,modules_touched ~ cache_read_tokens,0.3296,58,0.012824,0.033618,False,True,True
+reconstructed,T1_tool,5,58,28,modules_touched ~ verify_runs,0.2256,58,0.088573,0.145884,False,False,False
+reconstructed,T1_tool,5,58,28,modules_touched ~ time_to_first_edit,0.3426,52,0.014408,0.033618,False,True,True
+reconstructed,T1_tool,5,58,28,boundary_crossings ~ explore_chars_per_edit,-0.0868,58,0.512223,0.754855,False,False,False
+reconstructed,T1_tool,5,58,28,boundary_crossings ~ turns,0.4489,58,0.0007,0.006535,True,True,True
+reconstructed,T1_tool,5,58,28,boundary_crossings ~ cache_read_tokens,0.4244,58,0.001353,0.007852,True,True,True
+reconstructed,T1_tool,5,58,28,boundary_crossings ~ verify_runs,0.2386,58,0.07163,0.140246,False,False,False
+reconstructed,T1_tool,5,58,28,boundary_crossings ~ time_to_first_edit,0.4274,52,0.002271,0.010596,False,True,True
+reconstructed,T1_tool,5,58,28,crossing_rate ~ explore_chars_per_edit,-0.2281,58,0.085018,0.145884,False,False,False
+reconstructed,T1_tool,5,58,28,crossing_rate ~ turns,-0.0547,58,0.679797,0.843161,False,False,False
+reconstructed,T1_tool,5,58,28,crossing_rate ~ cache_read_tokens,-0.0696,58,0.599399,0.799199,False,False,False
+reconstructed,T1_tool,5,58,28,crossing_rate ~ verify_runs,0.0776,58,0.558149,0.781408,False,False,False
+reconstructed,T1_tool,5,58,28,crossing_rate ~ time_to_first_edit,-0.0021,52,0.987937,0.987937,False,False,False
+reconstructed,T1_tool,5,58,28,reread_rate ~ explore_chars_per_edit,-0.2677,58,0.043253,0.09316,False,False,True
+reconstructed,T1_tool,5,58,28,reread_rate ~ turns,0.0317,58,0.810572,0.8938,False,False,False
+reconstructed,T1_tool,5,58,28,reread_rate ~ cache_read_tokens,-0.0075,58,0.954637,0.987937,False,False,False
+reconstructed,T1_tool,5,58,28,reread_rate ~ verify_runs,-0.0524,58,0.692596,0.843161,False,False,False
+reconstructed,T1_tool,5,58,28,reread_rate ~ time_to_first_edit,0.0946,52,0.499172,0.754855,False,False,False
+reconstructed,T1_tool,5,58,28,delegation_explore_per_edit,0.5692,58,0.007035,0.022711,False,True,True
+reconstructed,T1_tool,5,58,28,delegation_crossing_rate,0.0454,58,0.829958,0.8938,False,False,False
+reconstructed,T1_tool,5,58,28,codified_explore_per_edit,-0.4196,58,0.014167,0.033618,False,True,True
+reconstructed,T1_tool,10,35,28,unique_files ~ explore_chars_per_edit,0.2983,35,0.081989,0.191307,False,False,False
+reconstructed,T1_tool,10,35,28,unique_files ~ turns,0.6087,35,0.000386,0.005404,True,True,True
+reconstructed,T1_tool,10,35,28,unique_files ~ cache_read_tokens,0.6398,35,0.000191,0.005348,True,True,True
+reconstructed,T1_tool,10,35,28,unique_files ~ verify_runs,0.49,35,0.004278,0.023956,False,True,True
+reconstructed,T1_tool,10,35,28,unique_files ~ time_to_first_edit,0.4198,34,0.015879,0.055575,False,False,True
+reconstructed,T1_tool,10,35,28,modules_touched ~ explore_chars_per_edit,0.0284,35,0.8685,0.943628,False,False,False
+reconstructed,T1_tool,10,35,28,modules_touched ~ turns,0.2583,35,0.132067,0.284452,False,False,False
+reconstructed,T1_tool,10,35,28,modules_touched ~ cache_read_tokens,0.1905,35,0.266715,0.414891,False,False,False
+reconstructed,T1_tool,10,35,28,modules_touched ~ verify_runs,0.5128,35,0.002789,0.023956,False,True,True
+reconstructed,T1_tool,10,35,28,modules_touched ~ time_to_first_edit,0.2039,34,0.241413,0.413765,False,False,False
+reconstructed,T1_tool,10,35,28,boundary_crossings ~ explore_chars_per_edit,-0.075,35,0.661854,0.926595,False,False,False
+reconstructed,T1_tool,10,35,28,boundary_crossings ~ turns,0.4792,35,0.005206,0.024295,False,True,True
+reconstructed,T1_tool,10,35,28,boundary_crossings ~ cache_read_tokens,0.4536,35,0.008175,0.032699,False,True,True
+reconstructed,T1_tool,10,35,28,boundary_crossings ~ verify_runs,0.4907,35,0.004218,0.023956,False,True,True
+reconstructed,T1_tool,10,35,28,boundary_crossings ~ time_to_first_edit,0.3484,34,0.045342,0.126958,False,False,False
+reconstructed,T1_tool,10,35,28,crossing_rate ~ explore_chars_per_edit,-0.3084,35,0.072122,0.183582,False,False,False
+reconstructed,T1_tool,10,35,28,crossing_rate ~ turns,0.0369,35,0.829715,0.943628,False,False,False
+reconstructed,T1_tool,10,35,28,crossing_rate ~ cache_read_tokens,0.0142,35,0.934231,0.943628,False,False,False
+reconstructed,T1_tool,10,35,28,crossing_rate ~ verify_runs,0.1968,35,0.251214,0.413765,False,False,False
+reconstructed,T1_tool,10,35,28,crossing_rate ~ time_to_first_edit,0.0445,34,0.798337,0.943628,False,False,False
+reconstructed,T1_tool,10,35,28,reread_rate ~ explore_chars_per_edit,-0.2053,35,0.231309,0.413765,False,False,False
+reconstructed,T1_tool,10,35,28,reread_rate ~ turns,-0.0121,35,0.943609,0.943628,False,False,False
+reconstructed,T1_tool,10,35,28,reread_rate ~ cache_read_tokens,-0.0558,35,0.745037,0.943628,False,False,False
+reconstructed,T1_tool,10,35,28,reread_rate ~ verify_runs,-0.033,35,0.847244,0.943628,False,False,False
+reconstructed,T1_tool,10,35,28,reread_rate ~ time_to_first_edit,0.1304,34,0.453878,0.668872,False,False,False
+reconstructed,T1_tool,10,35,28,delegation_explore_per_edit,0.6533,35,0.020895,0.065006,False,False,True
+reconstructed,T1_tool,10,35,28,delegation_crossing_rate,-0.02,35,0.943628,0.943628,False,False,False
+reconstructed,T1_tool,10,35,28,codified_explore_per_edit,-0.288,35,0.188667,0.377333,False,False,False
+reconstructed,T1+T2_tool+shell_exist,1,90,28,unique_files ~ explore_chars_per_edit,0.4705,90,9e-06,1.8e-05,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,unique_files ~ turns,0.8373,90,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,unique_files ~ cache_read_tokens,0.8357,90,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,unique_files ~ verify_runs,0.3893,90,0.00024,0.000373,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,unique_files ~ time_to_first_edit,0.7382,79,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,modules_touched ~ explore_chars_per_edit,0.4256,90,5.9e-05,0.000111,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,modules_touched ~ turns,0.8116,90,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,modules_touched ~ cache_read_tokens,0.791,90,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,modules_touched ~ verify_runs,0.3939,90,0.000202,0.000333,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,modules_touched ~ time_to_first_edit,0.727,79,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,boundary_crossings ~ explore_chars_per_edit,0.3621,90,0.000635,0.000889,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,boundary_crossings ~ turns,0.8609,90,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,boundary_crossings ~ cache_read_tokens,0.8447,90,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,boundary_crossings ~ verify_runs,0.3876,90,0.000256,0.000377,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,boundary_crossings ~ time_to_first_edit,0.7725,79,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,crossing_rate ~ explore_chars_per_edit,0.0984,90,0.353276,0.374733,False,False,False
+reconstructed,T1+T2_tool+shell_exist,1,90,28,crossing_rate ~ turns,0.2991,90,0.004774,0.006076,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,crossing_rate ~ cache_read_tokens,0.2782,90,0.008684,0.010571,False,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,crossing_rate ~ verify_runs,0.237,90,0.025339,0.029562,False,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,crossing_rate ~ time_to_first_edit,0.3584,79,0.00155,0.002066,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,reread_rate ~ explore_chars_per_edit,0.0968,90,0.36135,0.374733,False,False,False
+reconstructed,T1+T2_tool+shell_exist,1,90,28,reread_rate ~ turns,0.5285,90,1e-06,2e-06,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,reread_rate ~ cache_read_tokens,0.5132,90,1e-06,3e-06,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,reread_rate ~ verify_runs,0.2199,90,0.03807,0.042638,False,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,reread_rate ~ time_to_first_edit,0.4516,79,6.6e-05,0.000116,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,delegation_explore_per_edit,0.6225,90,7e-06,1.5e-05,True,True,True
+reconstructed,T1+T2_tool+shell_exist,1,90,28,delegation_crossing_rate,-0.1124,90,0.416763,0.416763,False,False,False
+reconstructed,T1+T2_tool+shell_exist,1,90,28,codified_explore_per_edit,-0.5971,90,2e-06,4e-06,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,unique_files ~ explore_chars_per_edit,0.4349,88,5e-05,9.9e-05,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,unique_files ~ turns,0.8328,88,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,unique_files ~ cache_read_tokens,0.8325,88,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,unique_files ~ verify_runs,0.3934,88,0.000243,0.00041,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,unique_files ~ time_to_first_edit,0.7187,77,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,modules_touched ~ explore_chars_per_edit,0.3887,88,0.000288,0.000424,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,modules_touched ~ turns,0.8009,88,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,modules_touched ~ cache_read_tokens,0.7793,88,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,modules_touched ~ verify_runs,0.3979,88,0.000206,0.000384,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,modules_touched ~ time_to_first_edit,0.7089,77,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,boundary_crossings ~ explore_chars_per_edit,0.3211,88,0.002746,0.003845,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,boundary_crossings ~ turns,0.8536,88,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,boundary_crossings ~ cache_read_tokens,0.8367,88,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,boundary_crossings ~ verify_runs,0.3912,88,0.000263,0.00041,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,boundary_crossings ~ time_to_first_edit,0.7581,77,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,crossing_rate ~ explore_chars_per_edit,0.0418,88,0.696375,0.696375,False,False,False
+reconstructed,T1+T2_tool+shell_exist,2,88,28,crossing_rate ~ turns,0.2573,88,0.016386,0.020855,False,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,crossing_rate ~ cache_read_tokens,0.2353,88,0.028157,0.03285,False,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,crossing_rate ~ verify_runs,0.2355,88,0.028049,0.03285,False,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,crossing_rate ~ time_to_first_edit,0.3117,77,0.006581,0.008775,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,reread_rate ~ explore_chars_per_edit,0.0533,88,0.619156,0.642088,False,False,False
+reconstructed,T1+T2_tool+shell_exist,2,88,28,reread_rate ~ turns,0.5064,88,2e-06,7e-06,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,reread_rate ~ cache_read_tokens,0.4885,88,5e-06,1.3e-05,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,reread_rate ~ verify_runs,0.2174,88,0.042631,0.047747,False,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,reread_rate ~ time_to_first_edit,0.4187,77,0.000262,0.00041,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,delegation_explore_per_edit,0.5882,88,3.9e-05,8.3e-05,True,True,True
+reconstructed,T1+T2_tool+shell_exist,2,88,28,delegation_crossing_rate,-0.1997,88,0.162332,0.17482,False,False,False
+reconstructed,T1+T2_tool+shell_exist,2,88,28,codified_explore_per_edit,-0.5741,88,6e-06,1.3e-05,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,unique_files ~ explore_chars_per_edit,0.3518,82,0.001545,0.002461,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,unique_files ~ turns,0.8187,82,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,unique_files ~ cache_read_tokens,0.8256,82,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,unique_files ~ verify_runs,0.4066,82,0.000253,0.000506,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,unique_files ~ time_to_first_edit,0.6885,72,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,modules_touched ~ explore_chars_per_edit,0.2864,82,0.009949,0.013265,False,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,modules_touched ~ turns,0.7659,82,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,modules_touched ~ cache_read_tokens,0.7494,82,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,modules_touched ~ verify_runs,0.4117,82,0.000211,0.000455,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,modules_touched ~ time_to_first_edit,0.6691,72,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,boundary_crossings ~ explore_chars_per_edit,0.2054,82,0.064458,0.072193,False,False,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,boundary_crossings ~ turns,0.8312,82,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,boundary_crossings ~ cache_read_tokens,0.8192,82,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,boundary_crossings ~ verify_runs,0.4034,82,0.000283,0.000528,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,boundary_crossings ~ time_to_first_edit,0.7296,72,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,crossing_rate ~ explore_chars_per_edit,0.004,82,0.971026,0.971026,False,False,False
+reconstructed,T1+T2_tool+shell_exist,3,82,28,crossing_rate ~ turns,0.2873,82,0.009726,0.013265,False,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,crossing_rate ~ cache_read_tokens,0.2829,82,0.010889,0.013858,False,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,crossing_rate ~ verify_runs,0.2623,82,0.018251,0.022218,False,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,crossing_rate ~ time_to_first_edit,0.3106,72,0.008856,0.013051,False,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,reread_rate ~ explore_chars_per_edit,0.0094,82,0.932761,0.967308,False,False,False
+reconstructed,T1+T2_tool+shell_exist,3,82,28,reread_rate ~ turns,0.4902,82,1e-05,2.9e-05,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,reread_rate ~ cache_read_tokens,0.4665,82,2.7e-05,6.8e-05,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,reread_rate ~ verify_runs,0.2175,82,0.050283,0.058663,False,False,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,reread_rate ~ time_to_first_edit,0.4171,72,0.00044,0.000771,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,delegation_explore_per_edit,0.5114,82,0.001582,0.002461,True,True,True
+reconstructed,T1+T2_tool+shell_exist,3,82,28,delegation_crossing_rate,-0.2604,82,0.107644,0.115924,False,False,False
+reconstructed,T1+T2_tool+shell_exist,3,82,28,codified_explore_per_edit,-0.5471,82,3.5e-05,8.2e-05,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,unique_files ~ explore_chars_per_edit,-0.0812,60,0.532609,0.552335,False,False,False
+reconstructed,T1+T2_tool+shell_exist,5,60,28,unique_files ~ turns,0.7828,60,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,unique_files ~ cache_read_tokens,0.8015,60,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,unique_files ~ verify_runs,0.4646,60,0.000359,0.001004,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,unique_files ~ time_to_first_edit,0.5525,53,6.8e-05,0.000237,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,modules_touched ~ explore_chars_per_edit,-0.2362,60,0.069672,0.097541,False,False,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,modules_touched ~ turns,0.6282,60,1e-06,8e-06,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,modules_touched ~ cache_read_tokens,0.6035,60,4e-06,1.7e-05,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,modules_touched ~ verify_runs,0.4751,60,0.000263,0.000819,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,modules_touched ~ time_to_first_edit,0.4313,53,0.001872,0.004031,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,boundary_crossings ~ explore_chars_per_edit,-0.3802,60,0.003494,0.006522,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,boundary_crossings ~ turns,0.7394,60,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,boundary_crossings ~ cache_read_tokens,0.7206,60,0.0,0.0,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,boundary_crossings ~ verify_runs,0.4602,60,0.000409,0.00104,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,boundary_crossings ~ time_to_first_edit,0.5568,53,5.9e-05,0.000237,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,crossing_rate ~ explore_chars_per_edit,-0.4389,60,0.000748,0.001744,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,crossing_rate ~ turns,0.1044,60,0.422796,0.473531,False,False,False
+reconstructed,T1+T2_tool+shell_exist,5,60,28,crossing_rate ~ cache_read_tokens,0.0975,60,0.453851,0.488762,False,False,False
+reconstructed,T1+T2_tool+shell_exist,5,60,28,crossing_rate ~ verify_runs,0.3196,60,0.014082,0.021906,False,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,crossing_rate ~ time_to_first_edit,0.0134,53,0.922735,0.922735,False,False,False
+reconstructed,T1+T2_tool+shell_exist,5,60,28,reread_rate ~ explore_chars_per_edit,-0.3804,60,0.003483,0.006522,True,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,reread_rate ~ turns,0.2647,60,0.042053,0.061973,False,False,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,reread_rate ~ cache_read_tokens,0.2237,60,0.085726,0.114302,False,False,False
+reconstructed,T1+T2_tool+shell_exist,5,60,28,reread_rate ~ verify_runs,0.2107,60,0.10553,0.134311,False,False,False
+reconstructed,T1+T2_tool+shell_exist,5,60,28,reread_rate ~ time_to_first_edit,0.1773,53,0.200969,0.234464,False,False,False
+reconstructed,T1+T2_tool+shell_exist,5,60,28,delegation_explore_per_edit,0.5686,60,0.0069,0.012074,False,True,True
+reconstructed,T1+T2_tool+shell_exist,5,60,28,delegation_crossing_rate,-0.2789,60,0.185188,0.225446,False,False,False
+reconstructed,T1+T2_tool+shell_exist,5,60,28,codified_explore_per_edit,-0.4446,60,0.007682,0.012652,False,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,unique_files ~ explore_chars_per_edit,-0.1941,41,0.219564,0.279445,False,False,False
+reconstructed,T1+T2_tool+shell_exist,10,41,28,unique_files ~ turns,0.8271,41,0.0,2e-06,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,unique_files ~ cache_read_tokens,0.8418,41,0.0,2e-06,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,unique_files ~ verify_runs,0.5364,41,0.000693,0.002079,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,unique_files ~ time_to_first_edit,0.4958,40,0.001961,0.004575,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,modules_touched ~ explore_chars_per_edit,-0.2395,41,0.129813,0.184468,False,False,False
+reconstructed,T1+T2_tool+shell_exist,10,41,28,modules_touched ~ turns,0.6311,41,6.6e-05,0.000368,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,modules_touched ~ cache_read_tokens,0.5885,41,0.000198,0.000922,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,modules_touched ~ verify_runs,0.5534,41,0.000465,0.001628,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,modules_touched ~ time_to_first_edit,0.378,40,0.018246,0.034059,False,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,boundary_crossings ~ explore_chars_per_edit,-0.3631,41,0.021662,0.037908,False,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,boundary_crossings ~ turns,0.7924,41,1e-06,5e-06,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,boundary_crossings ~ cache_read_tokens,0.7732,41,1e-06,7e-06,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,boundary_crossings ~ verify_runs,0.5334,41,0.000743,0.002079,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,boundary_crossings ~ time_to_first_edit,0.5236,40,0.001076,0.002739,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,crossing_rate ~ explore_chars_per_edit,-0.5573,41,0.000424,0.001628,True,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,crossing_rate ~ turns,0.3322,41,0.035632,0.058687,False,False,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,crossing_rate ~ cache_read_tokens,0.3209,41,0.042394,0.065946,False,False,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,crossing_rate ~ verify_runs,0.4111,41,0.009322,0.018645,False,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,crossing_rate ~ time_to_first_edit,0.166,40,0.299909,0.353992,False,False,False
+reconstructed,T1+T2_tool+shell_exist,10,41,28,reread_rate ~ explore_chars_per_edit,-0.123,41,0.436614,0.489008,False,False,False
+reconstructed,T1+T2_tool+shell_exist,10,41,28,reread_rate ~ turns,0.011,41,0.94436,0.94436,False,False,False
+reconstructed,T1+T2_tool+shell_exist,10,41,28,reread_rate ~ cache_read_tokens,-0.0287,41,0.856064,0.88777,False,False,False
+reconstructed,T1+T2_tool+shell_exist,10,41,28,reread_rate ~ verify_runs,0.1627,41,0.303421,0.353992,False,False,False
+reconstructed,T1+T2_tool+shell_exist,10,41,28,reread_rate ~ time_to_first_edit,0.0552,40,0.730471,0.786661,False,False,False
+reconstructed,T1+T2_tool+shell_exist,10,41,28,delegation_explore_per_edit,0.6639,41,0.006197,0.013347,False,True,True
+reconstructed,T1+T2_tool+shell_exist,10,41,28,delegation_crossing_rate,-0.3655,41,0.131763,0.184468,False,False,False
+reconstructed,T1+T2_tool+shell_exist,10,41,28,codified_explore_per_edit,-0.2418,41,0.217677,0.279445,False,False,False
+reconstructed,T1+T2_tool+shell_exist,20,14,28,unique_files ~ explore_chars_per_edit,-0.7833,14,0.004741,0.014749,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,unique_files ~ turns,0.8987,14,0.001194,0.006661,True,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,unique_files ~ cache_read_tokens,0.8845,14,0.001427,0.006661,True,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,unique_files ~ verify_runs,0.6831,14,0.013781,0.029681,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,unique_files ~ time_to_first_edit,-0.0011,14,0.996832,0.996832,False,False,False
+reconstructed,T1+T2_tool+shell_exist,20,14,28,modules_touched ~ explore_chars_per_edit,-0.7434,14,0.007356,0.020596,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,modules_touched ~ turns,0.9159,14,0.000959,0.006661,True,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,modules_touched ~ cache_read_tokens,0.9425,14,0.000678,0.00633,True,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,modules_touched ~ verify_runs,0.7205,14,0.009387,0.021902,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,modules_touched ~ time_to_first_edit,0.0742,14,0.789064,0.818289,False,False,False
+reconstructed,T1+T2_tool+shell_exist,20,14,28,boundary_crossings ~ explore_chars_per_edit,-0.6366,14,0.021723,0.03578,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,boundary_crossings ~ turns,0.9449,14,0.000657,0.00633,True,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,boundary_crossings ~ cache_read_tokens,0.9582,14,0.000551,0.00633,True,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,boundary_crossings ~ verify_runs,0.6748,14,0.014966,0.029932,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,boundary_crossings ~ time_to_first_edit,0.1742,14,0.529945,0.593539,False,False,False
+reconstructed,T1+T2_tool+shell_exist,20,14,28,crossing_rate ~ explore_chars_per_edit,-0.7231,14,0.009132,0.021902,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,crossing_rate ~ turns,0.8141,14,0.003333,0.011666,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,crossing_rate ~ cache_read_tokens,0.8242,14,0.002962,0.011666,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,crossing_rate ~ verify_runs,0.6567,14,0.017897,0.033409,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,crossing_rate ~ time_to_first_edit,0.1892,14,0.495088,0.577603,False,False,False
+reconstructed,T1+T2_tool+shell_exist,20,14,28,reread_rate ~ explore_chars_per_edit,-0.1606,14,0.562515,0.605785,False,False,False
+reconstructed,T1+T2_tool+shell_exist,20,14,28,reread_rate ~ turns,0.3744,14,0.176985,0.23598,False,False,False
+reconstructed,T1+T2_tool+shell_exist,20,14,28,reread_rate ~ cache_read_tokens,0.3872,14,0.162651,0.227712,False,False,False
+reconstructed,T1+T2_tool+shell_exist,20,14,28,reread_rate ~ verify_runs,0.3377,14,0.223385,0.284308,False,False,False
+reconstructed,T1+T2_tool+shell_exist,20,14,28,reread_rate ~ time_to_first_edit,0.2269,14,0.413357,0.503218,False,False,False
+reconstructed,T1+T2_tool+shell_exist,20,14,28,delegation_explore_per_edit,0.7778,14,0.019631,0.034354,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,delegation_crossing_rate,-0.7333,14,0.027807,0.043255,False,True,True
+reconstructed,T1+T2_tool+shell_exist,20,14,28,codified_explore_per_edit,0.5111,14,0.125194,0.184496,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,unique_files ~ explore_chars_per_edit,0.4406,91,2.9e-05,5.5e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,unique_files ~ turns,0.8924,91,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,unique_files ~ cache_read_tokens,0.8781,91,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,unique_files ~ verify_runs,0.3865,91,0.000246,0.000382,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,unique_files ~ time_to_first_edit,0.8023,80,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,modules_touched ~ explore_chars_per_edit,0.3842,91,0.000267,0.000394,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,modules_touched ~ turns,0.8751,91,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,modules_touched ~ cache_read_tokens,0.8468,91,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,modules_touched ~ verify_runs,0.3892,91,0.000222,0.000366,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,modules_touched ~ time_to_first_edit,0.7991,80,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,boundary_crossings ~ explore_chars_per_edit,0.3546,91,0.000768,0.000977,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,boundary_crossings ~ turns,0.8859,91,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,boundary_crossings ~ cache_read_tokens,0.8635,91,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,boundary_crossings ~ verify_runs,0.3766,91,0.000353,0.000485,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,boundary_crossings ~ time_to_first_edit,0.812,80,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,crossing_rate ~ explore_chars_per_edit,0.1018,91,0.333943,0.346311,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,crossing_rate ~ turns,0.3758,91,0.000363,0.000485,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,crossing_rate ~ cache_read_tokens,0.353,91,0.000812,0.000989,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,crossing_rate ~ verify_runs,0.2681,91,0.010964,0.012792,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,crossing_rate ~ time_to_first_edit,0.4186,80,0.000198,0.000347,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,reread_rate ~ explore_chars_per_edit,0.0924,91,0.380911,0.380911,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,reread_rate ~ turns,0.5433,91,0.0,1e-06,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,reread_rate ~ cache_read_tokens,0.5309,91,0.0,1e-06,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,reread_rate ~ verify_runs,0.1689,91,0.108981,0.122059,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,reread_rate ~ time_to_first_edit,0.4843,80,1.7e-05,3.4e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,delegation_explore_per_edit,0.6376,91,3e-06,6e-06,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,delegation_crossing_rate,-0.1376,91,0.312908,0.336978,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,1,91,28,codified_explore_per_edit,-0.6077,91,1e-06,2e-06,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,unique_files ~ explore_chars_per_edit,0.3832,88,0.000352,0.000579,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,unique_files ~ turns,0.8887,88,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,unique_files ~ cache_read_tokens,0.8753,88,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,unique_files ~ verify_runs,0.3925,88,0.000252,0.00044,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,unique_files ~ time_to_first_edit,0.7812,77,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,modules_touched ~ explore_chars_per_edit,0.324,88,0.002508,0.003511,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,modules_touched ~ turns,0.8654,88,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,modules_touched ~ cache_read_tokens,0.8347,88,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,modules_touched ~ verify_runs,0.3949,88,0.00023,0.00043,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,modules_touched ~ time_to_first_edit,0.7811,77,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,boundary_crossings ~ explore_chars_per_edit,0.2915,88,0.006556,0.007981,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,boundary_crossings ~ turns,0.8772,88,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,boundary_crossings ~ cache_read_tokens,0.8532,88,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,boundary_crossings ~ verify_runs,0.3815,88,0.000373,0.00058,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,boundary_crossings ~ time_to_first_edit,0.7955,77,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,crossing_rate ~ explore_chars_per_edit,0.0151,88,0.88776,0.88776,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,crossing_rate ~ turns,0.3193,88,0.002901,0.003868,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,crossing_rate ~ cache_read_tokens,0.2946,88,0.00599,0.007624,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,crossing_rate ~ verify_runs,0.2674,88,0.012619,0.014722,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,crossing_rate ~ time_to_first_edit,0.3556,77,0.001933,0.002849,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,reread_rate ~ explore_chars_per_edit,0.024,88,0.822808,0.853283,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,reread_rate ~ turns,0.5087,88,2e-06,6e-06,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,reread_rate ~ cache_read_tokens,0.4934,88,4e-06,1.1e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,reread_rate ~ verify_runs,0.1628,88,0.128926,0.138844,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,reread_rate ~ time_to_first_edit,0.4367,77,0.000141,0.000281,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,delegation_explore_per_edit,0.5882,88,3.9e-05,8.3e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,delegation_crossing_rate,-0.272,88,0.057017,0.063859,False,False,True
+reconstructed,T1+T2+T3_tool+shell_all,2,88,28,codified_explore_per_edit,-0.5741,88,6e-06,1.3e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,unique_files ~ explore_chars_per_edit,0.2875,82,0.009677,0.012316,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,unique_files ~ turns,0.8859,82,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,unique_files ~ cache_read_tokens,0.8771,82,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,unique_files ~ verify_runs,0.4054,82,0.000264,0.000493,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,unique_files ~ time_to_first_edit,0.7634,72,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,modules_touched ~ explore_chars_per_edit,0.2083,82,0.060832,0.070971,False,False,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,modules_touched ~ turns,0.8453,82,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,modules_touched ~ cache_read_tokens,0.8172,82,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,modules_touched ~ verify_runs,0.4078,82,0.000242,0.000485,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,modules_touched ~ time_to_first_edit,0.7575,72,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,boundary_crossings ~ explore_chars_per_edit,0.1693,82,0.127628,0.142943,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,boundary_crossings ~ turns,0.8601,82,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,boundary_crossings ~ cache_read_tokens,0.8397,82,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,boundary_crossings ~ verify_runs,0.3926,82,0.00041,0.000717,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,boundary_crossings ~ time_to_first_edit,0.7751,72,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,crossing_rate ~ explore_chars_per_edit,-0.0279,82,0.802016,0.831721,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,crossing_rate ~ turns,0.3646,82,0.001031,0.001699,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,crossing_rate ~ cache_read_tokens,0.3567,82,0.001328,0.002065,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,crossing_rate ~ verify_runs,0.2978,82,0.007367,0.009822,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,crossing_rate ~ time_to_first_edit,0.366,72,0.00204,0.002856,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,reread_rate ~ explore_chars_per_edit,-0.0181,82,0.870822,0.870822,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,reread_rate ~ turns,0.4963,82,8e-06,2.2e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,reread_rate ~ cache_read_tokens,0.4742,82,2e-05,5e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,reread_rate ~ verify_runs,0.157,82,0.157718,0.16985,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,reread_rate ~ time_to_first_edit,0.4448,72,0.000178,0.000384,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,delegation_explore_per_edit,0.5114,82,0.001582,0.002331,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,delegation_crossing_rate,-0.357,82,0.027411,0.033369,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,3,82,28,codified_explore_per_edit,-0.5471,82,3.5e-05,8.2e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,unique_files ~ explore_chars_per_edit,-0.1945,61,0.131893,0.14772,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,unique_files ~ turns,0.8457,61,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,unique_files ~ cache_read_tokens,0.8412,61,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,unique_files ~ verify_runs,0.4589,61,0.000378,0.000883,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,unique_files ~ time_to_first_edit,0.6279,54,5e-06,1.8e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,modules_touched ~ explore_chars_per_edit,-0.3549,61,0.005976,0.010458,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,modules_touched ~ turns,0.7447,61,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,modules_touched ~ cache_read_tokens,0.7,61,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,modules_touched ~ verify_runs,0.4642,61,0.000323,0.000823,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,modules_touched ~ time_to_first_edit,0.5821,54,2.3e-05,7e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,boundary_crossings ~ explore_chars_per_edit,-0.4179,61,0.001209,0.002257,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,boundary_crossings ~ turns,0.7781,61,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,boundary_crossings ~ cache_read_tokens,0.7478,61,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,boundary_crossings ~ verify_runs,0.44,61,0.000654,0.001408,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,boundary_crossings ~ time_to_first_edit,0.6256,54,5e-06,1.8e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,crossing_rate ~ explore_chars_per_edit,-0.5072,61,8.5e-05,0.000239,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,crossing_rate ~ turns,0.2777,61,0.031449,0.044029,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,crossing_rate ~ cache_read_tokens,0.2616,61,0.042707,0.056942,False,False,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,crossing_rate ~ verify_runs,0.3515,61,0.006473,0.010661,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,crossing_rate ~ time_to_first_edit,0.1745,54,0.204062,0.21162,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,reread_rate ~ explore_chars_per_edit,-0.4268,61,0.000947,0.001895,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,reread_rate ~ turns,0.2367,61,0.066762,0.081276,False,False,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,reread_rate ~ cache_read_tokens,0.1975,61,0.126138,0.147161,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,reread_rate ~ verify_runs,0.1232,61,0.34006,0.34006,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,reread_rate ~ time_to_first_edit,0.1859,54,0.175946,0.18948,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,delegation_explore_per_edit,0.5556,61,0.0082,0.012756,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,delegation_crossing_rate,-0.4124,61,0.04971,0.063267,False,False,True
+reconstructed,T1+T2+T3_tool+shell_all,5,61,28,codified_explore_per_edit,-0.4118,61,0.013241,0.019513,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,unique_files ~ explore_chars_per_edit,-0.2051,44,0.178629,0.217461,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,unique_files ~ turns,0.8736,44,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,unique_files ~ cache_read_tokens,0.8476,44,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,unique_files ~ verify_runs,0.5207,44,0.000639,0.001492,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,unique_files ~ time_to_first_edit,0.5741,43,0.000199,0.000619,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,modules_touched ~ explore_chars_per_edit,-0.3111,44,0.041334,0.057867,False,False,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,modules_touched ~ turns,0.7441,44,1e-06,6e-06,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,modules_touched ~ cache_read_tokens,0.6585,44,1.6e-05,7.3e-05,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,modules_touched ~ verify_runs,0.5301,44,0.000508,0.001383,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,modules_touched ~ time_to_first_edit,0.5336,43,0.000543,0.001383,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,boundary_crossings ~ explore_chars_per_edit,-0.3459,44,0.023318,0.036273,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,boundary_crossings ~ turns,0.8358,44,0.0,0.0,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,boundary_crossings ~ cache_read_tokens,0.7848,44,0.0,2e-06,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,boundary_crossings ~ verify_runs,0.4927,44,0.001234,0.002659,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,boundary_crossings ~ time_to_first_edit,0.6115,43,7.4e-05,0.000259,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,crossing_rate ~ explore_chars_per_edit,-0.6141,44,5.6e-05,0.000226,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,crossing_rate ~ turns,0.4335,44,0.004472,0.008945,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,crossing_rate ~ cache_read_tokens,0.4117,44,0.006934,0.011421,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,crossing_rate ~ verify_runs,0.429,44,0.004901,0.009149,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,crossing_rate ~ time_to_first_edit,0.2531,43,0.100898,0.13453,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,reread_rate ~ explore_chars_per_edit,-0.2092,44,0.170183,0.216597,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,reread_rate ~ turns,-0.004,44,0.979093,0.979093,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,reread_rate ~ cache_read_tokens,-0.0368,44,0.809523,0.839878,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,reread_rate ~ verify_runs,0.0367,44,0.809882,0.839878,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,reread_rate ~ time_to_first_edit,0.0938,43,0.543431,0.608643,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,delegation_explore_per_edit,0.6525,44,0.0067,0.011421,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,delegation_crossing_rate,-0.5174,44,0.031567,0.046519,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,10,44,28,codified_explore_per_edit,-0.206,44,0.285733,0.333355,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,unique_files ~ explore_chars_per_edit,-0.6419,22,0.003263,0.007614,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,unique_files ~ turns,0.8483,22,0.000101,0.001431,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,unique_files ~ cache_read_tokens,0.8305,22,0.000141,0.001431,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,unique_files ~ verify_runs,0.6463,22,0.003057,0.007614,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,unique_files ~ time_to_first_edit,0.2161,22,0.32201,0.450814,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,modules_touched ~ explore_chars_per_edit,-0.7068,22,0.0012,0.004199,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,modules_touched ~ turns,0.7646,22,0.000459,0.002441,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,modules_touched ~ cache_read_tokens,0.7096,22,0.001146,0.004199,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,modules_touched ~ verify_runs,0.6571,22,0.002603,0.007287,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,modules_touched ~ time_to_first_edit,0.1994,22,0.360899,0.467853,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,boundary_crossings ~ explore_chars_per_edit,-0.6953,22,0.001441,0.004483,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,boundary_crossings ~ turns,0.7647,22,0.000458,0.002441,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,boundary_crossings ~ cache_read_tokens,0.7569,22,0.000523,0.002441,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,boundary_crossings ~ verify_runs,0.5665,22,0.009432,0.020316,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,boundary_crossings ~ time_to_first_edit,0.3002,22,0.16892,0.248935,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,crossing_rate ~ explore_chars_per_edit,-0.8261,22,0.000153,0.001431,True,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,crossing_rate ~ turns,0.53,22,0.015155,0.030309,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,crossing_rate ~ cache_read_tokens,0.5133,22,0.018668,0.032669,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,crossing_rate ~ verify_runs,0.5185,22,0.017491,0.03265,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,crossing_rate ~ time_to_first_edit,0.1884,22,0.387936,0.47227,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,reread_rate ~ explore_chars_per_edit,-0.1189,22,0.585802,0.630864,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,reread_rate ~ turns,0.0987,22,0.651068,0.675181,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,reread_rate ~ cache_read_tokens,0.1467,22,0.501533,0.561717,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,reread_rate ~ verify_runs,0.0617,22,0.777297,0.777297,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,reread_rate ~ time_to_first_edit,0.1566,22,0.472996,0.551829,False,False,False
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,delegation_explore_per_edit,0.6458,22,0.022292,0.036717,False,True,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,delegation_crossing_rate,-0.5833,22,0.039,0.060667,False,False,True
+reconstructed,T1+T2+T3_tool+shell_all,20,22,28,codified_explore_per_edit,0.2706,22,0.367599,0.467853,False,False,False

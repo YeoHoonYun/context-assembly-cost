@@ -1,0 +1,101 @@
+manuscript_section,quantity,value,file,key_or_column,generating_script,value_in_released_file,check_release_vs_manuscript,check_release_vs_source
+Abstract; §1,share of tool-result volume returned by acquisition (read/search) calls,54.5%,results/pilot_summary_main.json,explore_char_share_global,s01,0.5453,ok,ok
+§3.1,transcript files in the canonical snapshot,339,results/final_measurements.json,transcript_files,s06,339,ok,ok
+§3.1,JSONL records read,"67,895",results/final_measurements.json,lines,s06,67895,ok,ok
+§3.1,JSON parse errors,0,results/final_measurements.json,json_parse_errors,s06,0,ok,ok
+§3.1,observation window start,2026-05-30,results/pilot_summary_main.json,window_utc[0],s01,2026-05-30,ok,ok
+§3.1,observation window end,2026-09-03,results/pilot_summary_main.json,window_utc[1],s01,2026-09-03,ok,ok
+§3.1,observation window elapsed days,96.91 (97 calendar days),results/supplementary_counts.json,observation_window.elapsed_days,release build,96.91,ok,ok
+§3.1,sessions touching more than one drive (factor A),6 / 339,results/pilot_summary_main.json,multi_drive_sessions,s01,6,ok,ok
+§3.1,technically grouped directories / files (factor B),7 dirs / 208 files,results/supplementary_counts.json,grouping_factor_B_directories.technically_grouped.python_files,none (working notes),208,ok,ok
+§3.1,technically grouped directories,7,results/supplementary_counts.json,grouping_factor_B_directories.technically_grouped.directories,none (working notes),7,ok,ok
+§3.1,feature grouped directories / files (factor B),13 dirs / 432 files,results/supplementary_counts.json,grouping_factor_B_directories.feature_grouped.python_files,none (working notes),432,ok,ok
+§3.1,feature grouped directories,13,results/supplementary_counts.json,grouping_factor_B_directories.feature_grouped.directories,none (working notes),13,ok,ok
+§3.1,layer-dominant vs feature-dominant sessions,1 : 3 (layer),results/factor_associations.json,B_grouping.n_layer_dominant,s04,1,ok,ok
+§3.1,layer-dominant vs feature-dominant sessions,1 : 3 (feature),results/factor_associations.json,B_grouping.n_feature_dominant,s04,3,ok,ok
+§3.1,codified assets (skills) created right after window start,17,results/supplementary_counts.json,codified_assets_created_at_window_start.skills,none (working notes),17,ok,ok
+§3.2,lineages after merge,338,results/final_measurements.json,dedup.distinct_lineages,s06,338,ok,ok
+§3.2,tool-use ids appearing more than once,"2,316",results/b5_reemission.json,tool_use_ids_appearing_more_than_once,s09,2316,ok,ok
+§3.2,re-emission rate of tool-use occurrences,17.4%,results/b5_reemission.json,reemission_rate_pct,s09,17.38,ok,ok
+§3.2,share of duplicates across sessions (one resumed pair),99.96%,results/b5_reemission.json,verdict.cross_session_share_of_duplicates_pct,s09,99.96,ok,ok
+§3.2,distinct session pairs carrying the duplicates,1 (one resumed pair),results/supplementary_counts.json,resumed_pair_duplicates_main_corpus.distinct_session_pairs,none (working notes),1,ok,ok
+§3.3,identifiers duplicated within a single session (earlier extraction),237,results/prior_extraction_duplication.json,duplicated_WITHIN_single_session,s12,237,ok,ok
+§3.3,"of those, distinct resource keys (all multi-path shell commands)",237 (all),results/supplementary_counts.json,prior_extraction_within_session_duplicates.distinct_resource_keys,none (working notes),237,ok,ok
+§3.3,"acquisition events, broader / tool-only",4.7x,results/final_measurements.json,regime_tool_plus_shell.acq_events / regime_tool_only.acq_events,s06,4.736585,ok,ok
+§3.3,"unique files, broader / tool-only",3.6x,results/final_measurements.json,regime_tool_plus_shell.unique_files_sum / regime_tool_only.unique_files_sum,s06,3.573034,ok,ok
+§3.3,path observation coverage of tool arguments,~55%,results/path_coverage.json,path_observation_coverage,s05,0.5554,ok,ok
+§3.3,C2 sampled shell commands,300,results/c2c3_regex_depth.json,C2.sampled,s13,300,ok,ok
+§3.3,C2 extracted paths,866,results/c2c3_regex_depth.json,C2.extracted_paths,s13,866,ok,ok
+§3.3,C2 extracted paths existing on disk,56.7%,results/c2c3_regex_depth.json,C2.extracted_exist_rate_pct,s13,56.7,ok,ok
+§3.3,C2 wide-net candidates missed by production regex,190,results/c2c3_regex_depth.json,C2.wide_net_candidates_missed_by_production_regex,s13,190,ok,ok
+§3.3,C2 missed per sampled command,0.63,results/c2c3_regex_depth.json,C2.missed_per_sampled_command,s13,0.633,ok,ok
+Abstract; §3.4,sub-agent transcripts (2026-09-05 rescan),211,results/pilot_summary_subagent_20260905.json,subagent_files,s02 (2026-09-05),211,ok,ok
+§3.4,sub-agent read:write ratio (2026-09-05 rescan),19.0 : 1,results/pilot_summary_subagent_20260905.json,total_reads / total_writes,s02 (2026-09-05),18.9625,ok,ok
+§3.4,main-agent read:write ratio,0.9 : 1,results/pilot_associations.json,E_subagent.read_write_ratio_main,s03,0.945,ok,ok
+§3.4,"read-only sub-agents (zero writes, 2026-09-05 rescan)",162 / 211,data/pilot_subagents_20260905.csv,count(writes == 0),s02 (2026-09-05),162,ok,ok
+§3.4,sub-agents that delegate further (nested),4,results/c2c3_regex_depth.json,C3.subagents_that_delegate_further,s13,4,ok,ok
+§3.4,nested Agent calls,7,results/c2c3_regex_depth.json,C3.nested_Agent_calls_total,s13,7,ok,ok
+§3.4,"median turns, nested vs flat sub-agents",110 (nested),results/c2c3_regex_depth.json,C3.depth2_nested.median_turns,s13,110.0,ok,ok
+§3.4,"median turns, nested vs flat sub-agents",50 (flat),results/c2c3_regex_depth.json,C3.depth1_flat.median_turns,s13,50.0,ok,ok
+§3.4,"median explore characters, nested vs flat","115,926 (nested)",results/c2c3_regex_depth.json,C3.depth2_nested.median_explore_chars,s13,115925.5,ok,ok
+§3.4,"median explore characters, nested vs flat","61,381 (flat)",results/c2c3_regex_depth.json,C3.depth1_flat.median_explore_chars,s13,61381.0,ok,ok
+§3.4,"zero-write share, nested sub-agents",1 of 4 (25%),results/c2c3_regex_depth.json,C3.depth2_nested.pct_zero_write,s13,25.0,ok,ok
+§3.4,"zero-write share, flat sub-agents",78%,results/c2c3_regex_depth.json,C3.depth1_flat.pct_zero_write,s13,77.78,ok,ok
+§4.1,median turns to first edit (lineages with an edit),19,results/final_measurements.json,regime_tool_only.ttfe_median (= regime_tool_plus_shell.ttfe_median),s06,19,ok,ok
+§4.1,"lineages in test subset, tool-only (acq_events >= 5)",109,results/final_associations.json,tool.n_subset,s06,109,ok,ok
+§4.1,"lineages in test subset, broader",121,results/final_associations.json,both.n_subset,s06,121,ok,ok
+Abstract; §4.1,tests in each family,28,results/final_associations.json,tool._fdr_family_size (and both),s06,28,ok,ok
+Abstract; §4.1,"tests surviving BH-FDR q<0.05, tool-only",13 / 28,results/final_associations.json,len(tool._fdr_survivors),s06,13,ok,ok
+Abstract; §4.1,"tests surviving BH-FDR q<0.05, broader",24 / 28,results/final_associations.json,len(both._fdr_survivors),s06,24,ok,ok
+§4.1,"unique_files ~ TTFE rho, tool-only",0.45,results/final_associations.json,tool|unique_files ~ time_to_first_edit|rho,s06,0.4543,ok,ok
+§4.1,"unique_files ~ TTFE q, tool-only",3.6e-5,results/final_associations.json,tool|unique_files ~ time_to_first_edit|q_bh,s06,3.6e-05,ok,ok
+§4.1,"unique_files ~ TTFE rho, broader",0.65,results/final_associations.json,both|unique_files ~ time_to_first_edit|rho,s06,0.6532,ok,ok
+§4.1,"boundary_crossings ~ TTFE rho, tool-only",0.48,results/final_associations.json,tool|boundary_crossings ~ time_to_first_edit|rho,s06,0.4799,ok,ok
+§4.1,"boundary_crossings ~ TTFE rho, broader",0.68,results/final_associations.json,both|boundary_crossings ~ time_to_first_edit|rho,s06,0.6842,ok,ok
+§4.1,"reread_rate ~ explore_chars_per_edit q, tool-only (assumed referent of 'q = 0.180')",0.180,results/final_associations.json,tool|reread_rate ~ explore_chars_per_edit|q_bh,s06,0.180489,ok,ok
+§4.2,"explore cost per edit, delegating lineages (median)","1,966",results/final_associations.json,tool|delegation: explore_per_edit (no vs yes)|median_b,s06,1965.5,ok,ok
+§4.2,"explore cost per edit, non-delegating lineages (median)","12,029",results/final_associations.json,tool|delegation: explore_per_edit (no vs yes)|median_a,s06,12028.5,ok,ok
+§4.2,"delegation Mann-Whitney z, tool-only",4.15,results/final_associations.json,tool|delegation: explore_per_edit (no vs yes)|z,s06,4.146,ok,ok
+§4.2,"delegation BH q, tool-only",0.00014,results/final_associations.json,tool|delegation: explore_per_edit (no vs yes)|q_bh,s06,0.000135,ok,ok
+§4.2,"delegation rank-biserial, tool-only",0.62,results/final_associations.json,tool|delegation: explore_per_edit (no vs yes)|rank_biserial,s06,0.6203,ok,ok
+§4.2,"delegation x crossing_rate q, tool-only",0.90,results/final_associations.json,tool|delegation: crossing_rate (no vs yes)|q_bh,s06,0.90017,ok,ok
+§4.3,"explore cost per edit, codified readers vs others, tool-only (median, readers)","12,596",results/final_associations.json,tool|codified: explore_per_edit (no vs yes)|median_b,s06,12596.0,ok,ok
+§4.3,"explore cost per edit, codified readers vs others, tool-only (median, others)","7,127",results/final_associations.json,tool|codified: explore_per_edit (no vs yes)|median_a,s06,7127.2,ok,ok
+§4.3,"codified readers vs others BH q, tool-only",0.015,results/final_associations.json,tool|codified: explore_per_edit (no vs yes)|q_bh,s06,0.015015,ok,ok
+§4.3,"explore cost per edit, codified readers vs others, broader (median, readers)","12,054",results/final_associations.json,both|codified: explore_per_edit (no vs yes)|median_b,s06,12054.0,ok,ok
+§4.3,"explore cost per edit, codified readers vs others, broader (median, others)","4,641",results/final_associations.json,both|codified: explore_per_edit (no vs yes)|median_a,s06,4641.2,ok,ok
+§4.3,"codified readers vs others BH q, broader",0.0031,results/final_associations.json,both|codified: explore_per_edit (no vs yes)|q_bh,s06,0.003117,ok,ok
+§4.3,regression coefficient of codified access on log cost per edit,0.667,results/b3_matching.json,regime_tool.regression_log_explore_per_edit.codified.beta,s08,0.6671,ok,ok
+§4.3,regression p value,0.000152,results/b3_matching.json,regime_tool.regression_log_explore_per_edit.codified.p,s08,0.000152,ok,ok
+§4.3,regression R^2,0.645,results/b3_matching.json,regime_tool.regression_log_explore_per_edit._r2,s08,0.645,ok,ok
+§4.3,regression n,110,results/b3_matching.json,regime_tool.regression_log_explore_per_edit._n,s08,110,ok,ok
+§4.3,matched pairs (caliper 1 on unique files),23,results/b3_matching.json,regime_tool.matched_caliper1_on_unique_files.n_pairs,s08,23,ok,ok
+§4.3,matched ratio of medians,1.49,results/b3_matching.json,regime_tool.matched_caliper1_on_unique_files.ratio,s08,1.493,ok,ok
+§4.3,pairs with codified > plain,18 / 23,results/b3_matching.json,regime_tool.matched_caliper1_on_unique_files.sign_test_pos,s08,18,ok,ok
+§4.3,sign test p,0.0067,results/b3_matching.json,regime_tool.matched_caliper1_on_unique_files.sign_test_p,s08,0.006714,ok,ok
+§4.3,lineages with sub-agents merged,167,results/b3bc_dose_subagent.json,B3c_parent_plus_subagents.n,s10,167,ok,ok
+§4.3,ratio of medians with sub-agents merged,2.41,results/b3bc_dose_subagent.json,B3c_parent_plus_subagents.binary_explore_per_edit.ratio,s10,2.41,ok,ok
+§4.3,p with sub-agents merged,0.000662,results/b3bc_dose_subagent.json,B3c_parent_plus_subagents.binary_explore_per_edit.p,s10,0.000662,ok,ok
+§4.3,dose-response within codified readers (reads),rho -0.179,results/b3bc_dose_subagent.json,B3b_parent_only.dose_within_codified_reads.rho,s10,-0.1786,ok,ok
+§4.3,dose-response within codified readers (characters),rho 0.021,results/b3bc_dose_subagent.json,B3b_parent_only.dose_within_codified_chars.rho,s10,0.021,ok,ok
+§4.4,"S2: tests whose sign reverses between thresholds 3 and 5, broader regime",5,supplementary/s15_fdr_threshold_tier.json,"threshold_grid_exact_both_from_csv.{3,5}.tests (sign of rho / rank_biserial)",s15,5,ok,ok
+§4.4,"S2: n at threshold 10, broader regime",92,supplementary/s15_fdr_threshold_tier.json,threshold_grid_exact_both_from_csv.10.n_subset,s15,92,ok,ok
+§4.4,"S2: n at threshold 20, broader regime",52,supplementary/s15_fdr_threshold_tier.json,threshold_grid_exact_both_from_csv.20.n_subset,s15,52,ok,ok
+§4.4,"S3: tests surviving, T1 (threshold 5, reconstruction)",12,supplementary/s15_fdr_threshold_tier.json,len(threshold_grid_reconstructed_by_tier.T1_tool.5.survivors_q<0.05),s15,12,ok,ok
+§4.4,"S3: tests surviving, T1+T2",18,supplementary/s15_fdr_threshold_tier.json,len(threshold_grid_reconstructed_by_tier.T1+T2_tool+shell_exist.5.survivors_q<0.05),s15,18,ok,ok
+§4.4,"S3: tests surviving, T1+T2+T3",20,supplementary/s15_fdr_threshold_tier.json,len(threshold_grid_reconstructed_by_tier.T1+T2+T3_tool+shell_all.5.survivors_q<0.05),s15,20,ok,ok
+§4.4,canonical sessions missing at reconstruction,133,supplementary/s15_fdr_threshold_tier.json,reconstruction.sessions_missing_now,s15,133,ok,ok
+§4.4,canonical sessions present at reconstruction,206,supplementary/s15_fdr_threshold_tier.json,reconstruction.sessions_present_now,s15,206,ok,ok
+§4.4,"significance agreement, reconstruction vs canonical, tool-only",27 / 28,supplementary/s15_fdr_threshold_tier.json,reconstruction.tool_vs_canonical_tool_at_thr5.sig_agreement,s15,27,ok,ok
+§4.4,"significance agreement, reconstruction vs canonical, broader",24 / 28,supplementary/s15_fdr_threshold_tier.json,reconstruction.all_vs_canonical_both_at_thr5.sig_agreement,s15,24,ok,ok
+§4.5,second product: session files,54,second_product/a3_codex.json,session_files,s14,54,ok,ok
+§4.5,second product: corpus size,663.7 MB,results/supplementary_counts.json,second_product_corpus.size_mb,none (working notes),663.7,ok,ok
+§4.5,second product: tool calls,"45,057",second_product/a3_codex.json,R1_resume_duplication.tool_call_occurrences,s14,45057,ok,ok
+§4.5,second product: duplicated call ids,0,second_product/a3_codex.json,R1_resume_duplication.ids_appearing_more_than_once,s14,0,ok,ok
+§4.5,second product: compaction records,516,second_product/a3_codex.json,compacted_records,s14,516,ok,ok
+§4.5,second product: shell-bearing tool calls,"16,625",second_product/a3_codex.json,R2_shell_paths.shell_bearing_tool_calls,s14,16625,ok,ok
+§4.5,second product: share of shell calls containing path tokens,84.5%,second_product/a3_codex.json,R2_shell_paths.share_pct,s14,84.52,ok,ok
+§4.5,second product: spawn_agent / wait_agent / close_agent calls,24 (spawn),second_product/a3_codex.json,R3_delegation.delegation_like_tools.spawn_agent,s14,24,ok,ok
+§4.5,second product: spawn_agent / wait_agent / close_agent calls,26 (wait),second_product/a3_codex.json,R3_delegation.delegation_like_tools.wait_agent,s14,26,ok,ok
+§4.5,second product: spawn_agent / wait_agent / close_agent calls,15 (close),second_product/a3_codex.json,R3_delegation.delegation_like_tools.close_agent,s14,15,ok,ok
+§4.5,second product: distinct CLI versions,17,second_product/a3_codex.json,len(cli_versions),s14,17,ok,ok

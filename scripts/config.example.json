@@ -1,0 +1,40 @@
+{
+  "_comment": "Copy to config.json and replace the placeholders. Values used for the released tables are withheld because they name the private project's directories and scripts.",
+  "project_drive": "C",
+  "project_repo_dirname": "<project_repository_directory_name>",
+  "two_level_dirs": [
+    "<top_level_dir_split_one_level_deeper_1>",
+    "<top_level_dir_split_one_level_deeper_2>",
+    "<top_level_dir_split_one_level_deeper_3>"
+  ],
+  "verify_regex": "(pytest|python\\s+[\\w\\\\/.-]*test|<project_pretest_script_1>|<project_pretest_script_2>|verify_|validate|audit\\.py|check_|<scheduler_run_command>)",
+  "layer_dirs": [
+    "<technically_grouped_dir_1>",
+    "<technically_grouped_dir_2>",
+    "<technically_grouped_dir_3>",
+    "<technically_grouped_dir_4>",
+    "<technically_grouped_dir_5>",
+    "<technically_grouped_dir_6>",
+    "<technically_grouped_dir_7>"
+  ],
+  "feature_dirs": [
+    "<feature_grouped_dir_01>",
+    "<feature_grouped_dir_02>",
+    "<feature_grouped_dir_03>",
+    "<feature_grouped_dir_04>",
+    "<feature_grouped_dir_05>",
+    "<feature_grouped_dir_06>",
+    "<feature_grouped_dir_07>",
+    "<feature_grouped_dir_08>",
+    "<feature_grouped_dir_09>",
+    "<feature_grouped_dir_10>",
+    "<feature_grouped_dir_11>",
+    "<feature_grouped_dir_12>",
+    "<feature_grouped_dir_13>"
+  ],
+  "default_cwd": "<project_root_used_to_resolve_relative_paths>",
+  "resumed_pair_session_ids": [
+    "<raw_session_id_a>",
+    "<raw_session_id_b>"
+  ]
+}

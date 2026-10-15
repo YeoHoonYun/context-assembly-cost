@@ -1,0 +1,70 @@
+{
+  "generated_utc": "2026-09-05T11:01:09.928354+00:00",
+  "source": "earlier extraction of an overlapping window (mutation records; not released)",
+  "source_snapshot": "2026-08-27",
+  "record_fields": {
+    "session_id": 7430,
+    "ts": 7430,
+    "tool": 7430,
+    "operation": 7430,
+    "resource_path": 7430,
+    "resource_key": 7430,
+    "resolution": 7430,
+    "is_sidechain": 7430,
+    "tool_call_id": 7430,
+    "uuid": 7430,
+    "source_transcript": 7430
+  },
+  "records": 7430,
+  "tool_call_occurrences": 7430,
+  "distinct_tool_call_ids": 5042,
+  "duplication_rate_pct": 32.14,
+  "ids_appearing_more_than_once": 1312,
+  "multiplicity_distribution": {
+    "1": 3730,
+    "2": 1121,
+    "3": 53,
+    "4": 31,
+    "5": 13,
+    "6": 24,
+    "7": 3,
+    "8": 14,
+    "9": 4,
+    "10": 17,
+    "12": 7,
+    "14": 4,
+    "16": 4,
+    "17": 1,
+    "18": 4,
+    "20": 1,
+    "22": 3,
+    "24": 1,
+    "26": 2,
+    "28": 2,
+    "32": 1,
+    "38": 1,
+    "46": 1
+  },
+  "duplicated_ACROSS_sessions": 1075,
+  "duplicated_WITHIN_single_session": 237,
+  "cross_session_share_of_duplicates_pct": 81.94,
+  "distinct_session_pairs": 1,
+  "top_session_pairs": [
+    {
+      "pair": [
+        "ffe1cb1f0a8a3deb",
+        "c3eb91786e4e0b56"
+      ],
+      "shared_ids": 1075,
+      "matches_main_corpus_resumed_pair": true
+    }
+  ],
+  "reemission_gap_seconds": {
+    "n": 2388,
+    "p05": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "pct_zero": 100.0
+  }
+}

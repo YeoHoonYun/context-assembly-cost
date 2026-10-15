@@ -1,0 +1,167 @@
+{
+  "generated_utc": "2026-09-05T06:18:47.389370+00:00",
+  "subagent_files_scanned": 211,
+  "note": "Tool-only regime. The numerator of explore_per_edit counts tool-result characters only.",
+  "B3b_parent_only": {
+    "n": 110,
+    "n_codified": 82,
+    "n_plain": 28,
+    "median_edits": 1.0,
+    "median_acq": 12.0,
+    "binary_explore_per_edit": {
+      "n_a": 28,
+      "n_b": 82,
+      "median_a": 7969.0,
+      "median_b": 17327.0,
+      "ratio": 2.174,
+      "z": -3.5,
+      "p": 0.000466
+    },
+    "dose_spearman_reads_vs_cost": {
+      "rho": 0.1986,
+      "n": 110,
+      "p": 0.038119
+    },
+    "dose_spearman_chars_vs_cost": {
+      "rho": 0.2545,
+      "n": 110,
+      "p": 0.007886
+    },
+    "dose_within_codified_reads": {
+      "rho": -0.1786,
+      "n": 82,
+      "p": 0.108061
+    },
+    "dose_within_codified_chars": {
+      "rho": 0.021,
+      "n": 82,
+      "p": 0.8499
+    },
+    "dose_tertiles_codified_chars": [
+      {
+        "tertile": 1,
+        "n": 27,
+        "median_codified_chars": 2810.0,
+        "median_explore_per_edit": 14644.5
+      },
+      {
+        "tertile": 2,
+        "n": 27,
+        "median_codified_chars": 6848.0,
+        "median_explore_per_edit": 17287.0
+      },
+      {
+        "tertile": 3,
+        "n": 28,
+        "median_codified_chars": 7140.0,
+        "median_explore_per_edit": 22077.2
+      }
+    ],
+    "dose_regression": {
+      "(intercept)": {
+        "beta": 10.8531,
+        "p": 0.0
+      },
+      "log_codified_chars": {
+        "beta": 0.0752,
+        "p": 0.000271
+      },
+      "log_unique_files": {
+        "beta": 1.1474,
+        "p": 0.0
+      },
+      "log_turns": {
+        "beta": -1.1371,
+        "p": 0.0
+      },
+      "_n": 110,
+      "_r2": 0.5777
+    }
+  },
+  "B3c_parent_plus_subagents": {
+    "n": 167,
+    "n_codified": 122,
+    "n_plain": 45,
+    "median_edits": 1.0,
+    "median_acq": 16.0,
+    "binary_explore_per_edit": {
+      "n_a": 45,
+      "n_b": 122,
+      "median_a": 10601.5,
+      "median_b": 25552.0,
+      "ratio": 2.41,
+      "z": -3.405,
+      "p": 0.000662
+    },
+    "dose_spearman_reads_vs_cost": {
+      "rho": 0.1939,
+      "n": 167,
+      "p": 0.012492
+    },
+    "dose_spearman_chars_vs_cost": {
+      "rho": 0.1705,
+      "n": 167,
+      "p": 0.028064
+    },
+    "dose_within_codified_reads": {
+      "rho": -0.0443,
+      "n": 122,
+      "p": 0.625945
+    },
+    "dose_within_codified_chars": {
+      "rho": -0.05,
+      "n": 122,
+      "p": 0.58225
+    },
+    "dose_tertiles_codified_chars": [
+      {
+        "tertile": 1,
+        "n": 40,
+        "median_codified_chars": 2318.0,
+        "median_explore_per_edit": 24581.5
+      },
+      {
+        "tertile": 2,
+        "n": 40,
+        "median_codified_chars": 6467.0,
+        "median_explore_per_edit": 22566.2
+      },
+      {
+        "tertile": 3,
+        "n": 42,
+        "median_codified_chars": 9216.5,
+        "median_explore_per_edit": 33589.8
+      }
+    ],
+    "dose_regression": {
+      "(intercept)": {
+        "beta": 10.4429,
+        "p": 0.0
+      },
+      "log_codified_chars": {
+        "beta": 0.0757,
+        "p": 9e-06
+      },
+      "log_unique_files": {
+        "beta": 2.0037,
+        "p": 0.0
+      },
+      "log_turns": {
+        "beta": -1.4979,
+        "p": 0.0
+      },
+      "_n": 167,
+      "_r2": 0.5153
+    }
+  },
+  "B3c_comparison": {
+    "binary_ratio_parent_only": 2.174,
+    "binary_ratio_with_subagents": 2.41,
+    "binary_p_parent_only": 0.000466,
+    "binary_p_with_subagents": 0.000662,
+    "median_edits_parent_only": 1.0,
+    "median_edits_with_subagents": 1.0,
+    "median_acq_parent_only": 12.0,
+    "median_acq_with_subagents": 16.0
+  }
+}

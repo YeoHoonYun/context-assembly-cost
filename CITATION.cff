@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it and the associated paper. Package DOI to be inserted."
+type: dataset
+title: "Measuring Context Assembly Cost in Coding-Agent Trajectories: derived data and analysis scripts"
+version: "1.0.0"
+license: CC-BY-4.0
+authors:
+  - family-names: Yoon
+    given-names: YeoHoon
+    affiliation: aSSIST University
+  - family-names: Kim
+    given-names: Kyung-Sung
+    affiliation: aSSIST University
+keywords:
+  - coding agents
+  - context assembly cost
+  - agent trajectories
+  - measurement validity
+preferred-citation:
+  type: article
+  title: "Measuring Context Assembly Cost in Coding-Agent Trajectories: Limits of Identifying Software-Structure Effects from Observation"
+  authors:
+    - family-names: Yoon
+      given-names: YeoHoon
+      affiliation: aSSIST University
+    - family-names: Kim
+      given-names: Kyung-Sung
+      affiliation: aSSIST University
+  journal: "Science of Computer Programming"
+  status: submitted
+  year: 2026

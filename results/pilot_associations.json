@@ -1,0 +1,196 @@
+{
+  "note": "No random assignment -> all results are correlations. No causal claims.",
+  "n_sessions_total": 339,
+  "A_subset_rule": "read_events >= 5",
+  "A_n": 110,
+  "A_spearman": {
+    "crossing_rate ~ explore_chars_per_edit": {
+      "rho": -0.118,
+      "n": 110,
+      "p": 0.217999
+    },
+    "crossing_rate ~ explore_chars": {
+      "rho": -0.0757,
+      "n": 110,
+      "p": 0.429171
+    },
+    "crossing_rate ~ turns": {
+      "rho": -0.0355,
+      "n": 110,
+      "p": 0.710549
+    },
+    "crossing_rate ~ cache_read_tokens": {
+      "rho": -0.0428,
+      "n": 110,
+      "p": 0.655042
+    },
+    "crossing_rate ~ verify_runs": {
+      "rho": 0.0583,
+      "n": 110,
+      "p": 0.542734
+    },
+    "boundary_crossings ~ explore_chars_per_edit": {
+      "rho": 0.0634,
+      "n": 110,
+      "p": 0.508196
+    },
+    "boundary_crossings ~ explore_chars": {
+      "rho": 0.4109,
+      "n": 110,
+      "p": 1.8e-05
+    },
+    "boundary_crossings ~ turns": {
+      "rho": 0.5301,
+      "n": 110,
+      "p": 0.0
+    },
+    "boundary_crossings ~ cache_read_tokens": {
+      "rho": 0.5171,
+      "n": 110,
+      "p": 0.0
+    },
+    "boundary_crossings ~ verify_runs": {
+      "rho": 0.2386,
+      "n": 110,
+      "p": 0.012754
+    },
+    "modules_touched ~ explore_chars_per_edit": {
+      "rho": 0.0346,
+      "n": 110,
+      "p": 0.717653
+    },
+    "modules_touched ~ explore_chars": {
+      "rho": 0.3387,
+      "n": 110,
+      "p": 0.000406
+    },
+    "modules_touched ~ turns": {
+      "rho": 0.4165,
+      "n": 110,
+      "p": 1.4e-05
+    },
+    "modules_touched ~ cache_read_tokens": {
+      "rho": 0.3811,
+      "n": 110,
+      "p": 6.9e-05
+    },
+    "modules_touched ~ verify_runs": {
+      "rho": 0.2347,
+      "n": 110,
+      "p": 0.014279
+    },
+    "reread_rate ~ explore_chars_per_edit": {
+      "rho": -0.2632,
+      "n": 110,
+      "p": 0.005989
+    },
+    "reread_rate ~ explore_chars": {
+      "rho": -0.2395,
+      "n": 110,
+      "p": 0.012408
+    },
+    "reread_rate ~ turns": {
+      "rho": 0.1532,
+      "n": 110,
+      "p": 0.109803
+    },
+    "reread_rate ~ cache_read_tokens": {
+      "rho": 0.1261,
+      "n": 110,
+      "p": 0.187896
+    },
+    "reread_rate ~ verify_runs": {
+      "rho": -0.0766,
+      "n": 110,
+      "p": 0.424001
+    },
+    "unique_files ~ explore_chars_per_edit": {
+      "rho": 0.398,
+      "n": 110,
+      "p": 3.3e-05
+    },
+    "unique_files ~ explore_chars": {
+      "rho": 0.7411,
+      "n": 110,
+      "p": 0.0
+    },
+    "unique_files ~ turns": {
+      "rho": 0.5303,
+      "n": 110,
+      "p": 0.0
+    },
+    "unique_files ~ cache_read_tokens": {
+      "rho": 0.5491,
+      "n": 110,
+      "p": 0.0
+    },
+    "unique_files ~ verify_runs": {
+      "rho": 0.2894,
+      "n": 110,
+      "p": 0.002512
+    }
+  },
+  "B_n_sessions_with_edit": 99,
+  "B_spearman_ttfe": {
+    "crossing_rate ~ time_to_first_edit": {
+      "rho": 0.0047,
+      "n": 99,
+      "p": 0.963244
+    },
+    "modules_touched ~ time_to_first_edit": {
+      "rho": 0.3534,
+      "n": 99,
+      "p": 0.000467
+    },
+    "unique_files ~ time_to_first_edit": {
+      "rho": 0.4393,
+      "n": 99,
+      "p": 1.4e-05
+    },
+    "reread_rate ~ time_to_first_edit": {
+      "rho": 0.1193,
+      "n": 99,
+      "p": 0.237621
+    }
+  },
+  "C_single_vs_multi_module": {
+    "definition": "A: modules_touched<=1 vs B: modules_touched>=4, y=explore_chars_per_edit",
+    "result": null
+  },
+  "D_delegation_sessions": {
+    "n_with": 19,
+    "n_without": 91,
+    "explore_per_edit": {
+      "n_a": 91,
+      "n_b": 19,
+      "median_a": 15599.5,
+      "median_b": 3787.5,
+      "U": 1332.0,
+      "z": 3.697,
+      "p": 0.000218,
+      "rank_biserial": 0.5408
+    },
+    "crossing_rate": {
+      "n_a": 91,
+      "n_b": 19,
+      "median_a": 0.5,
+      "median_b": 0.5,
+      "U": 880.0,
+      "z": 0.123,
+      "p": 0.902452,
+      "rank_biserial": 0.0179
+    }
+  },
+  "E_subagent": {
+    "n": 215,
+    "read_write_ratio_sub": 19.367,
+    "read_write_ratio_main": 0.945,
+    "ratio_multiple": 20.49,
+    "read_only_subagents": 167,
+    "read_only_share": 0.7767,
+    "median_reads_per_subagent": 25,
+    "median_turns_per_subagent": 51,
+    "total_result_chars": 18235013
+  },
+  "F_note": "Session-level labels for codified context (factor C) need paths and are computed separately in S04; out of scope for this script."
+}

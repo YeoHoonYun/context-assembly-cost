@@ -1,0 +1,44 @@
+{
+  "generated_utc": "2026-09-06T01:47:28.881028+00:00",
+  "C2": {
+    "note": "Not a human-coded comparison. Automated audit approximated by on-disk existence and non-path patterns.",
+    "shell_commands_total": 6897,
+    "commands_with_file_like_token": 6408,
+    "sampled": 300,
+    "extracted_paths": 866,
+    "extracted_that_exist_on_disk": 491,
+    "extracted_exist_rate_pct": 56.7,
+    "extracted_matching_nonpath_pattern": 0,
+    "wide_net_candidates_missed_by_production_regex": 190,
+    "missed_per_sampled_command": 0.633,
+    "missed_examples_count": 12,
+    "nonpath_examples_count": 0
+  },
+  "C3": {
+    "subagent_files": 211,
+    "parent_sessions_with_subagents": 76,
+    "parent_Agent_calls_total": 250,
+    "parent_sessions_that_delegated": 77,
+    "subagents_that_delegate_further": 4,
+    "nested_Agent_calls_total": 7,
+    "max_subagents_per_parent": 60,
+    "subagents_per_parent_median": 1.0,
+    "depth1_flat": {
+      "n": 207,
+      "median_turns": 50.0,
+      "median_reads": 25.0,
+      "median_writes": 0.0,
+      "median_explore_chars": 61381.0,
+      "pct_zero_write": 77.78
+    },
+    "depth2_nested": {
+      "n": 4,
+      "median_turns": 110.0,
+      "median_reads": 34.0,
+      "median_writes": 2.5,
+      "median_explore_chars": 115925.5,
+      "pct_zero_write": 25.0
+    },
+    "caveat": "Grandchild trajectories spawned by nested delegation are not stored as separate files and are not observed."
+  }
+}

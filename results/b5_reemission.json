@@ -1,0 +1,138 @@
+{
+  "generated_utc": "2026-09-05T02:27:28.516030+00:00",
+  "question": "Where does the 17.3% event duplication come from - session forks or re-emission within the same session?",
+  "assistant_messages": 27037,
+  "tool_use_occurrences": 13329,
+  "distinct_tool_use_ids": 11013,
+  "reemission_rate_pct": 17.38,
+  "tool_use_ids_appearing_more_than_once": 2316,
+  "share_of_ids_duplicated_pct": 21.03,
+  "duplicated_ACROSS_sessions": 2315,
+  "duplicated_across_DIFFERENT_uuids_same_or_other_session": 2315,
+  "multiplicity_distribution": {
+    "1": 8697,
+    "2": 2316
+  },
+  "reemission_gap_seconds": {
+    "n": 2316,
+    "p05": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "pct_under_1s": 100.0,
+    "pct_under_60s": 100.0
+  },
+  "by_kind": {
+    "SHELL": {
+      "occurrences": 4700,
+      "duplicated": 760,
+      "reemission_rate_pct": 16.17
+    },
+    "EDIT": {
+      "occurrences": 3871,
+      "duplicated": 810,
+      "reemission_rate_pct": 20.92
+    },
+    "READ": {
+      "occurrences": 1759,
+      "duplicated": 159,
+      "reemission_rate_pct": 9.04
+    },
+    "SEARCH": {
+      "occurrences": 1675,
+      "duplicated": 188,
+      "reemission_rate_pct": 11.22
+    },
+    "OTHER": {
+      "occurrences": 1064,
+      "duplicated": 353,
+      "reemission_rate_pct": 33.18
+    },
+    "DELEGATE": {
+      "occurrences": 260,
+      "duplicated": 46,
+      "reemission_rate_pct": 17.69
+    }
+  },
+  "by_tool": {
+    "PowerShell": {
+      "occurrences": 4700,
+      "duplicated": 760,
+      "reemission_rate_pct": 16.17
+    },
+    "Write": {
+      "occurrences": 2061,
+      "duplicated": 516,
+      "reemission_rate_pct": 25.04
+    },
+    "Edit": {
+      "occurrences": 1810,
+      "duplicated": 294,
+      "reemission_rate_pct": 16.24
+    },
+    "Read": {
+      "occurrences": 1759,
+      "duplicated": 159,
+      "reemission_rate_pct": 9.04
+    },
+    "Glob": {
+      "occurrences": 1132,
+      "duplicated": 89,
+      "reemission_rate_pct": 7.86
+    },
+    "TodoWrite": {
+      "occurrences": 872,
+      "duplicated": 348,
+      "reemission_rate_pct": 39.91
+    },
+    "Grep": {
+      "occurrences": 543,
+      "duplicated": 99,
+      "reemission_rate_pct": 18.23
+    },
+    "Agent": {
+      "occurrences": 250,
+      "duplicated": 45,
+      "reemission_rate_pct": 18.0
+    },
+    "WebFetch": {
+      "occurrences": 78,
+      "duplicated": 0,
+      "reemission_rate_pct": 0.0
+    },
+    "WebSearch": {
+      "occurrences": 62,
+      "duplicated": 2,
+      "reemission_rate_pct": 3.23
+    },
+    "ToolSearch": {
+      "occurrences": 25,
+      "duplicated": 3,
+      "reemission_rate_pct": 12.0
+    },
+    "AskUserQuestion": {
+      "occurrences": 21,
+      "duplicated": 0,
+      "reemission_rate_pct": 0.0
+    },
+    "Skill": {
+      "occurrences": 10,
+      "duplicated": 1,
+      "reemission_rate_pct": 10.0
+    },
+    "ScheduleWakeup": {
+      "occurrences": 2,
+      "duplicated": 0,
+      "reemission_rate_pct": 0.0
+    },
+    "TaskStop": {
+      "occurrences": 2,
+      "duplicated": 0,
+      "reemission_rate_pct": 0.0
+    }
+  },
+  "verdict": {
+    "cross_session_share_of_duplicates_pct": 99.96,
+    "conclusion": "If re-emission within the same session dominated, a 'fork replay' attribution would not hold. See the cross_session share."
+  }
+}
